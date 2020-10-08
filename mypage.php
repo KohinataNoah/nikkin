@@ -37,7 +37,6 @@ for ($i = 0; $i < $dbRoutineDataNum; $i++) {
   if ($routineDate[$i] !== date('Y-m-d') && $routineDate[$i]['checked'] = 1) {
     d('日付が変わりました。日課を更新します。');
     try {
-      $dbh = connectDB();
       $sql = 'UPDATE routine SET checked = 0 WHERE id = :id';
       $data = array(':id' => $dbRoutineData[$i]['id']);
       $stmt = queryPost($dbh, $sql, $data);
