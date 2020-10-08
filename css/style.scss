@@ -1,0 +1,30 @@
+// リセットCSSやベーススタイル
+@import "common/destyle";
+
+* {
+  line-height: 150%;
+}
+
+//変数定義
+@import "common/config";
+
+// mixin
+@import "common/mixin";
+
+// レイアウト
+@import "common/layout";
+
+// ブロック
+@import "common/block";
+
+// エレメント
+@import "common/element";
+
+// ヘルパー
+@import "common/helper";
+
+// ユニーク
+@import "common/unique";
+
+// javascript
+@import "common/is";

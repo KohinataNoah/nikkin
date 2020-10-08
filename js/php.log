@@ -1,0 +1,286 @@
+[07-Oct-2020 23:45:36 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[07-Oct-2020 23:45:36 Asia/Tokyo] [ページ名]：ajax処理
+[07-Oct-2020 23:45:36 Asia/Tokyo] セッションID：jmu0r5ugs9kubklfb1uc01u984
+[07-Oct-2020 23:45:36 Asia/Tokyo] セッション変数の中身：Array
+(
+    [login_time] => 1602081933
+    [login_limit] => 2592000
+    [user_id] => 2
+    [msg] => 
+)
+
+[07-Oct-2020 23:45:36 Asia/Tokyo] 現在日時タイムスタンプ：1602081936
+[07-Oct-2020 23:45:36 Asia/Tokyo] $_POST:Array
+(
+    [routineId] => 1
+)
+
+[07-Oct-2020 23:45:36 Asia/Tokyo] POST送信を確認しました。
+[07-Oct-2020 23:45:36 Asia/Tokyo] データベースに接続します。
+[07-Oct-2020 23:45:36 Asia/Tokyo] クエリ成功しました。
+[07-Oct-2020 23:45:36 Asia/Tokyo] クエリ成功しました。
+[07-Oct-2020 23:45:36 Asia/Tokyo] $isChecked:Array
+(
+    [checked] => 0
+)
+
+[08-Oct-2020 00:02:39 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[08-Oct-2020 00:02:39 Asia/Tokyo] [ページ名]：ajax処理
+[08-Oct-2020 00:02:39 Asia/Tokyo] セッションID：f0bli4uidlbt5jlakjr1ldb03c
+[08-Oct-2020 00:02:39 Asia/Tokyo] セッション変数の中身：Array
+(
+    [login_time] => 1602082958
+    [login_limit] => 2592000
+    [user_id] => 2
+    [msg] => 
+)
+
+[08-Oct-2020 00:02:39 Asia/Tokyo] 現在日時タイムスタンプ：1602082959
+[08-Oct-2020 00:02:39 Asia/Tokyo] $_POST:Array
+(
+    [routineId] => 1
+)
+
+[08-Oct-2020 00:02:39 Asia/Tokyo] POST送信を確認しました。
+[08-Oct-2020 00:02:39 Asia/Tokyo] データベースに接続します。
+[08-Oct-2020 00:02:39 Asia/Tokyo] クエリ成功しました。
+[08-Oct-2020 00:02:39 Asia/Tokyo] クエリ成功しました。
+[08-Oct-2020 00:02:39 Asia/Tokyo] $isChecked:Array
+(
+    [checked] => 1
+)
+
+[08-Oct-2020 20:50:11 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[08-Oct-2020 20:50:11 Asia/Tokyo] [ページ名]：ajax処理
+[08-Oct-2020 20:50:11 Asia/Tokyo] セッションID：bu3l65l702s2e44i6t5s5lut8i
+[08-Oct-2020 20:50:11 Asia/Tokyo] セッション変数の中身：Array
+(
+    [login_time] => 1602157809
+    [login_limit] => 2592000
+    [user_id] => 2
+    [msg] => 
+)
+
+[08-Oct-2020 20:50:11 Asia/Tokyo] 現在日時タイムスタンプ：1602157811
+[08-Oct-2020 20:50:11 Asia/Tokyo] $_POST:Array
+(
+    [routineId] => 1
+)
+
+[08-Oct-2020 20:50:11 Asia/Tokyo] POST送信を確認しました。
+[08-Oct-2020 20:50:11 Asia/Tokyo] データベースに接続します。
+[08-Oct-2020 20:50:11 Asia/Tokyo] クエリ成功しました。
+[08-Oct-2020 20:50:11 Asia/Tokyo] クエリ成功しました。
+[08-Oct-2020 20:50:11 Asia/Tokyo] $isChecked:Array
+(
+    [checked] => 0
+)
+
+[08-Oct-2020 21:08:52 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[08-Oct-2020 21:08:52 Asia/Tokyo] [ページ名]：ajax処理
+[08-Oct-2020 21:08:52 Asia/Tokyo] セッションID：ed4vrf64o02mi7alnm4eemidnk
+[08-Oct-2020 21:08:52 Asia/Tokyo] セッション変数の中身：Array
+(
+    [login_time] => 1602158896
+    [login_limit] => 2592000
+    [user_id] => 2
+    [msg] => 
+)
+
+[08-Oct-2020 21:08:52 Asia/Tokyo] 現在日時タイムスタンプ：1602158932
+[08-Oct-2020 21:08:52 Asia/Tokyo] $_POST:Array
+(
+    [routineId] => 2
+)
+
+[08-Oct-2020 21:08:52 Asia/Tokyo] POST送信を確認しました。
+[08-Oct-2020 21:08:52 Asia/Tokyo] データベースに接続します。
+[08-Oct-2020 21:08:52 Asia/Tokyo] クエリ成功しました。
+[08-Oct-2020 21:08:52 Asia/Tokyo] クエリ成功しました。
+[08-Oct-2020 21:08:52 Asia/Tokyo] $isChecked:Array
+(
+    [checked] => 0
+)
+
+[08-Oct-2020 21:08:53 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[08-Oct-2020 21:08:53 Asia/Tokyo] [ページ名]：ajax処理
+[08-Oct-2020 21:08:53 Asia/Tokyo] セッションID：5u0942shajct704q76bovbc70q
+[08-Oct-2020 21:08:53 Asia/Tokyo] セッション変数の中身：Array
+(
+    [login_time] => 1602158896
+    [login_limit] => 2592000
+    [user_id] => 2
+    [msg] => 
+)
+
+[08-Oct-2020 21:08:53 Asia/Tokyo] 現在日時タイムスタンプ：1602158933
+[08-Oct-2020 21:08:53 Asia/Tokyo] $_POST:Array
+(
+    [routineId] => 3
+)
+
+[08-Oct-2020 21:08:53 Asia/Tokyo] POST送信を確認しました。
+[08-Oct-2020 21:08:53 Asia/Tokyo] データベースに接続します。
+[08-Oct-2020 21:08:53 Asia/Tokyo] クエリ成功しました。
+[08-Oct-2020 21:08:53 Asia/Tokyo] クエリ成功しました。
+[08-Oct-2020 21:08:53 Asia/Tokyo] $isChecked:Array
+(
+    [checked] => 0
+)
+
+[08-Oct-2020 21:08:53 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[08-Oct-2020 21:08:53 Asia/Tokyo] [ページ名]：ajax処理
+[08-Oct-2020 21:08:53 Asia/Tokyo] セッションID：ejv15gema5tpqrmaa2tb623u35
+[08-Oct-2020 21:08:53 Asia/Tokyo] セッション変数の中身：Array
+(
+    [login_time] => 1602158896
+    [login_limit] => 2592000
+    [user_id] => 2
+    [msg] => 
+)
+
+[08-Oct-2020 21:08:53 Asia/Tokyo] 現在日時タイムスタンプ：1602158933
+[08-Oct-2020 21:08:53 Asia/Tokyo] $_POST:Array
+(
+    [routineId] => 4
+)
+
+[08-Oct-2020 21:08:53 Asia/Tokyo] POST送信を確認しました。
+[08-Oct-2020 21:08:53 Asia/Tokyo] データベースに接続します。
+[08-Oct-2020 21:08:53 Asia/Tokyo] クエリ成功しました。
+[08-Oct-2020 21:08:53 Asia/Tokyo] クエリ成功しました。
+[08-Oct-2020 21:08:53 Asia/Tokyo] $isChecked:Array
+(
+    [checked] => 0
+)
+
+[08-Oct-2020 21:10:57 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[08-Oct-2020 21:10:57 Asia/Tokyo] [ページ名]：ajax処理
+[08-Oct-2020 21:10:57 Asia/Tokyo] セッションID：qhqbrbbft1v6tvv5m0e9f9aira
+[08-Oct-2020 21:10:57 Asia/Tokyo] セッション変数の中身：Array
+(
+    [login_time] => 1602159055
+    [login_limit] => 2592000
+    [user_id] => 2
+    [msg] => 
+)
+
+[08-Oct-2020 21:10:57 Asia/Tokyo] 現在日時タイムスタンプ：1602159057
+[08-Oct-2020 21:10:57 Asia/Tokyo] $_POST:Array
+(
+    [routineId] => 1
+)
+
+[08-Oct-2020 21:10:57 Asia/Tokyo] POST送信を確認しました。
+[08-Oct-2020 21:10:57 Asia/Tokyo] データベースに接続します。
+[08-Oct-2020 21:10:57 Asia/Tokyo] クエリ成功しました。
+[08-Oct-2020 21:10:57 Asia/Tokyo] クエリ成功しました。
+[08-Oct-2020 21:10:57 Asia/Tokyo] $isChecked:Array
+(
+    [checked] => 0
+)
+
+[08-Oct-2020 21:12:34 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[08-Oct-2020 21:12:34 Asia/Tokyo] [ページ名]：ajax処理
+[08-Oct-2020 21:12:34 Asia/Tokyo] セッションID：b7viadb9mkc24utf34bbgtr2oo
+[08-Oct-2020 21:12:34 Asia/Tokyo] セッション変数の中身：Array
+(
+    [login_time] => 1602159153
+    [login_limit] => 2592000
+    [user_id] => 2
+    [msg] => 
+)
+
+[08-Oct-2020 21:12:34 Asia/Tokyo] 現在日時タイムスタンプ：1602159154
+[08-Oct-2020 21:12:34 Asia/Tokyo] $_POST:Array
+(
+    [routineId] => 1
+)
+
+[08-Oct-2020 21:12:34 Asia/Tokyo] POST送信を確認しました。
+[08-Oct-2020 21:12:34 Asia/Tokyo] データベースに接続します。
+[08-Oct-2020 21:12:34 Asia/Tokyo] クエリ成功しました。
+[08-Oct-2020 21:12:34 Asia/Tokyo] クエリ成功しました。
+[08-Oct-2020 21:12:34 Asia/Tokyo] $isChecked:Array
+(
+    [checked] => 0
+)
+
+[08-Oct-2020 21:12:35 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[08-Oct-2020 21:12:35 Asia/Tokyo] [ページ名]：ajax処理
+[08-Oct-2020 21:12:35 Asia/Tokyo] セッションID：ok82ug85dbqcsjro62lg9kb9vi
+[08-Oct-2020 21:12:35 Asia/Tokyo] セッション変数の中身：Array
+(
+    [login_time] => 1602159153
+    [login_limit] => 2592000
+    [user_id] => 2
+    [msg] => 
+)
+
+[08-Oct-2020 21:12:35 Asia/Tokyo] 現在日時タイムスタンプ：1602159155
+[08-Oct-2020 21:12:35 Asia/Tokyo] $_POST:Array
+(
+    [routineId] => 2
+)
+
+[08-Oct-2020 21:12:35 Asia/Tokyo] POST送信を確認しました。
+[08-Oct-2020 21:12:35 Asia/Tokyo] データベースに接続します。
+[08-Oct-2020 21:12:35 Asia/Tokyo] クエリ成功しました。
+[08-Oct-2020 21:12:35 Asia/Tokyo] クエリ成功しました。
+[08-Oct-2020 21:12:35 Asia/Tokyo] $isChecked:Array
+(
+    [checked] => 0
+)
+
+[08-Oct-2020 21:12:35 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[08-Oct-2020 21:12:35 Asia/Tokyo] [ページ名]：ajax処理
+[08-Oct-2020 21:12:35 Asia/Tokyo] セッションID：sgo671c6vf378hocj3o3hmdfvs
+[08-Oct-2020 21:12:35 Asia/Tokyo] セッション変数の中身：Array
+(
+    [login_time] => 1602159153
+    [login_limit] => 2592000
+    [user_id] => 2
+    [msg] => 
+)
+
+[08-Oct-2020 21:12:35 Asia/Tokyo] 現在日時タイムスタンプ：1602159155
+[08-Oct-2020 21:12:35 Asia/Tokyo] $_POST:Array
+(
+    [routineId] => 3
+)
+
+[08-Oct-2020 21:12:35 Asia/Tokyo] POST送信を確認しました。
+[08-Oct-2020 21:12:35 Asia/Tokyo] データベースに接続します。
+[08-Oct-2020 21:12:35 Asia/Tokyo] クエリ成功しました。
+[08-Oct-2020 21:12:35 Asia/Tokyo] クエリ成功しました。
+[08-Oct-2020 21:12:35 Asia/Tokyo] $isChecked:Array
+(
+    [checked] => 0
+)
+
+[08-Oct-2020 22:53:05 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[08-Oct-2020 22:53:05 Asia/Tokyo] [ページ名]：ajax処理
+[08-Oct-2020 22:53:05 Asia/Tokyo] セッションID：0r9emodah6hg9hlnk0e6kc0efd
+[08-Oct-2020 22:53:05 Asia/Tokyo] セッション変数の中身：Array
+(
+    [login_time] => 1602165184
+    [login_limit] => 2592000
+    [user_id] => 2
+    [msg] => 
+)
+
+[08-Oct-2020 22:53:05 Asia/Tokyo] 現在日時タイムスタンプ：1602165185
+[08-Oct-2020 22:53:05 Asia/Tokyo] $_POST:Array
+(
+    [routineId] => 1
+)
+
+[08-Oct-2020 22:53:05 Asia/Tokyo] POST送信を確認しました。
+[08-Oct-2020 22:53:05 Asia/Tokyo] データベースに接続します。
+[08-Oct-2020 22:53:05 Asia/Tokyo] クエリ成功しました。
+[08-Oct-2020 22:53:05 Asia/Tokyo] クエリ成功しました。
+[08-Oct-2020 22:53:05 Asia/Tokyo] $isChecked:Array
+(
+    [checked] => 0
+)
+

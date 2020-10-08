@@ -1,0 +1,74 @@
+.l_ {
+  // ヘッダー
+  &header {
+    background: #4169e1;
+    &_inner {
+      overflow: hidden;
+      max-width: 1000px;
+      padding: 0 20px;
+      margin: {
+        right: auto;
+        left: auto;
+      }
+    }
+    &Nav {
+      margin-top: 37.5px;
+      float: right;
+    }
+  }
+  // ヘッダーここまで
+  // メインコンテンツ
+  &cont {
+    margin: {
+      top: 30px;
+      bottom: 30px;
+    }
+    &_inner {
+      overflow: hidden;
+      max-width: 1000px;
+      padding: 20px;
+      margin: {
+        right: auto;
+        left: auto;
+      }
+    }
+  }
+  &pageTtl {
+    max-width: 1000px;
+    margin: {
+      right: auto;
+      left: auto;
+    }
+    padding: 20px;
+  }
+  // メイン
+  &main {
+    width: 73%;
+    float: left;
+  }
+  // サイドバー
+  &sidebar {
+    background: #faff;
+    width: 25%;
+    float: right;
+    border-radius: 20px;
+    &_inner {
+      padding: 20px;
+    }
+  }
+
+  // メインコンテンツここまで
+  // フッター
+  &footer {
+    background: #444444;
+    color: #dddddd;
+    &_inner {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: {
+        right: auto;
+        left: auto;
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+@mixin ly_inner($maxWidth: $innerWidth) {
+  max-width: $maxWidth;
+  padding: {
+    right: $innerPadding;
+    left: $innerPadding;
+  }
+  margin: {
+    right: auto;
+    left: auto;
+  }
+}

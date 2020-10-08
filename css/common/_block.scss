@@ -1,0 +1,135 @@
+.b_ {
+  // ヘッダー
+  &siteTtl {
+    font-size: 4em;
+    float: left;
+    a {
+      color: #fff;
+    }
+  }
+  &header {
+    &Nav {
+      li {
+        font-size: 1.5em;
+        float: left;
+        margin: {
+          left: 40px;
+        }
+        a {
+          color: #fff;
+        }
+      }
+    }
+  }
+  // ヘッダーここまで
+
+  // メインコンテンツ
+  // メイン
+  &pageTtl {
+    padding: 30px 10px;
+    background: #e25c00;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.75em;
+    span {
+      position: relative;
+      display: inline-block;
+      transform: translateY(-20%);
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        left: 50%;
+        width: 80px;
+        height: 1px;
+        background-color: currentColor;
+        transform: translateX(-50%);
+      }
+    }
+  }
+  // メディア
+  &media {
+    overflow: hidden;
+    padding: 20px;
+    border: 2px solid #888;
+    margin-bottom: 40px;
+    &Text {
+      margin: {
+        top: 30px;
+        bottom: 30px;
+      }
+      font-size: 1em;
+    }
+    .e_routineList {
+      padding: 0.5em;
+      background: #e7e8e9;
+      margin-top: 10px;
+      border-radius: 0.5em;
+    }
+  }
+  // フォーム
+  &form {
+    display: block;
+    margin: {
+      top: 20px;
+      right: auto;
+      bottom: 20px;
+      left: auto;
+    }
+    padding: 20px;
+    span {
+      display: inline-block;
+    }
+    &Unit {
+      text-align: center;
+      margin: 0 auto;
+      border: 2px solid #e25c00;
+      > p {
+        font-size: 1.125em;
+        line-height: 200%;
+        margin: {
+          top: 10px;
+          bottom: 10px;
+        }
+      }
+    }
+    &Text {
+      text-align: left;
+      border: 1px solid #222;
+      width: 14em;
+      padding: {
+        right: 0.5em;
+        left: 0.5em;
+      }
+      &area {
+        text-align: left;
+        border: 1px solid #222;
+        padding: 0.5em;
+      }
+    }
+  }
+  // カード
+  // サイドバー
+  &sidebar {
+    &Nav {
+      font-size: 1em;
+      margin-top: 40px;
+      li {
+        text-align: center;
+        margin: {
+          top: 20px;
+          bottom: 20px;
+        }
+        background: #fff;
+        border: 2px solid #444;
+        border-radius: 20px;
+      }
+    }
+  }
+  // メインコンテンツここまで
+  // フッター
+  &copyright {
+    text-align: center;
+  }
+  // フッターここまで
+}

@@ -1,0 +1,28 @@
+.u_ {
+  // トップページ用
+  &tp {
+    &.l_cont {
+      margin: 0;
+      color: #dddddd;
+      background: #222;
+    }
+    .l_cont_inner {
+      background: {
+        position: -350px;
+        image: url("../../img/bg_top.png");
+      }
+    }
+    &Link {
+      margin-top: 40px;
+      span {
+        font-size: 3em;
+      }
+    }
+  }
+  &pageTtl {
+    span {
+      font-size: 3em;
+    }
+  }
+  // トップページ用ここまで
+}

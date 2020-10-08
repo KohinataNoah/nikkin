@@ -1,0 +1,8 @@
+{
+  "editor.formatOnSave": true,
+  "liveServer.settings.proxy": {
+    "enable": true,
+    "baseUri": "/",
+    "proxyUri": "http://localhost:8888/home/output/nikkin"
+  }
+}

@@ -1,0 +1,21 @@
+.hp_ {
+  // 1カラム用
+  &1col {
+    .l_main {
+      float: none;
+      width: auto;
+    }
+    .hp_1col__noDisplay {
+      display: none;
+    }
+  }
+  // １カラム用ここまで
+
+  // 文のセンター寄せ
+  &center {
+    text-align: center;
+  }
+  &right {
+    float: right;
+  }
+}

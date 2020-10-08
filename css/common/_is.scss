@@ -1,0 +1,29 @@
+.is_ {
+  &err {
+    color: #f44;
+  }
+  &suc {
+    color: #17f;
+  }
+}
+
+.js_ {
+  &topMsg {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background: rgba(122, 206, 230, 0.6);
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 60px;
+  }
+  &check {
+    cursor: pointer;
+    &__checked {
+      i {
+        color: #2252e2;
+      }
+    }
+  }
+}
