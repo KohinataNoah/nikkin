@@ -58,6 +58,7 @@ if (!empty($_POST)) {
   d('POST送信を確認できませんでした。');
   $email = '';
   $pass = '';
+  $passSave = '';
 }
 
 // 画面終了ログ吐き出し
