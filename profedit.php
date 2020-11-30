@@ -23,7 +23,7 @@ if (!empty($_POST)) {
   }
   if (empty($errMsg)) {
     d('空白チェックOK。');
-    exitGuest();
+    // exitGuest();
     try {
       $dbh = connectDB();
       $sql = 'UPDATE users SET username = :username,target = :target WHERE id = :id';

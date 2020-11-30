@@ -45,7 +45,7 @@ if (!empty($_POST)) {
   }
   if (empty($errMsg)) {
     d('バリデーションチェックOKです。');
-    exitGuest();
+    // exitGuest();
     try {
       if ($editFlg) {
         if ($delete) {
