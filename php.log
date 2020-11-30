@@ -1,1989 +1,1533 @@
-[08-Oct-2020 21:02:09 Asia/Tokyo] メッセージ：
-[08-Oct-2020 21:02:09 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
-[08-Oct-2020 21:02:09 Asia/Tokyo] [ページ名]：マイページ
-[08-Oct-2020 21:02:09 Asia/Tokyo] セッションID：fplrip8ckr8uhkp9lgu52tvt2s
-[08-Oct-2020 21:02:09 Asia/Tokyo] セッション変数の中身：Array
+[30-Nov-2020 22:05:18 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[30-Nov-2020 22:05:18 Asia/Tokyo] [ページ名]：マイページ
+[30-Nov-2020 22:05:18 Asia/Tokyo] セッションID：6l6a8po2b6nlogiqkrs8l21cbt
+[30-Nov-2020 22:05:18 Asia/Tokyo] セッション変数の中身：Array
 (
-    [login_time] => 1602158464
-    [login_limit] => 2592000
+    [login_time] => 1606741477
+    [login_limit] => 3600
     [user_id] => 2
     [msg] => 
 )
 
-[08-Oct-2020 21:02:09 Asia/Tokyo] 現在日時タイムスタンプ：1602158529
-[08-Oct-2020 21:02:09 Asia/Tokyo] ログイン認証を行います。
-[08-Oct-2020 21:02:09 Asia/Tokyo] ログイン済みユーザーです。
-[08-Oct-2020 21:02:09 Asia/Tokyo] ログイン有効期限内のユーザーです。
-[08-Oct-2020 21:02:09 Asia/Tokyo] ログイン有効期限を更新します。
-[08-Oct-2020 21:02:09 Asia/Tokyo] データベースに接続します。
-[08-Oct-2020 21:02:09 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:02:09 Asia/Tokyo] $dbroutinedata:Array
+[30-Nov-2020 22:05:18 Asia/Tokyo] 現在日時タイムスタンプ：1606741518
+[30-Nov-2020 22:05:18 Asia/Tokyo] ログイン認証を行います。
+[30-Nov-2020 22:05:18 Asia/Tokyo] ログイン済みユーザーです。
+[30-Nov-2020 22:05:18 Asia/Tokyo] ログイン有効期限内のユーザーです。
+[30-Nov-2020 22:05:18 Asia/Tokyo] ログイン有効期限を更新します。
+[30-Nov-2020 22:05:18 Asia/Tokyo] 日記情報を取得します。
+[30-Nov-2020 22:05:18 Asia/Tokyo] ユーザーID：2
+[30-Nov-2020 22:05:18 Asia/Tokyo] 日記ID：179
+[30-Nov-2020 22:05:18 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:05:18 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:05:18 Asia/Tokyo] 商品ID179
+[30-Nov-2020 22:05:18 Asia/Tokyo] フォーム用DBデータ：Array
 (
-    [0] => Array
-        (
-            [id] => 1
-            [routine] => 腹筋３０回
-            [checked] => 1
-            [update_date] => 2020-10-08 20:50:11
-        )
-
-    [1] => Array
-        (
-            [id] => 2
-            [routine] => 背筋３０回
-            [checked] => 0
-            [update_date] => 2020-10-01 16:59:56
-        )
-
-    [2] => Array
-        (
-            [id] => 3
-            [routine] => 腕立て３０回
-            [checked] => 0
-            [update_date] => 2020-10-01 17:00:00
-        )
-
-    [3] => Array
-        (
-            [id] => 4
-            [routine] => ランニング３０分
-            [checked] => 0
-            [update_date] => 2020-10-01 17:00:03
-        )
-
+    [id] => 179
+    [user_id] => 2
+    [diary] => どら
+    [delete_flg] => 0
+    [create_date] => 2020-11-30 22:03:14
+    [update_date] => 2020-11-30 22:03:14
 )
 
-[08-Oct-2020 21:02:09 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:02:09 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:02:09 Asia/Tokyo] $dbUserData:Array
+[30-Nov-2020 22:05:18 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Nov-2020 22:05:18 Asia/Tokyo] 
+[30-Nov-2020 22:05:24 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[30-Nov-2020 22:05:24 Asia/Tokyo] [ページ名]：マイページ
+[30-Nov-2020 22:05:24 Asia/Tokyo] セッションID：6q9ooatei51qk1e2gq4qtff3io
+[30-Nov-2020 22:05:24 Asia/Tokyo] セッション変数の中身：Array
 (
-    [username] => hirohiro
-    [target] => がんばります！
-できればらいしゅうも!
-)
-
-[08-Oct-2020 21:02:09 Asia/Tokyo] $dbRoutineDataNum:4
-[08-Oct-2020 21:02:09 Asia/Tokyo] 日付が変わりました。日課を更新します。
-[08-Oct-2020 21:02:09 Asia/Tokyo] PHP Notice:  Undefined index: user_id in /Applications/MAMP/htdocs/home/output/nikkin/mypage.php on line 43
-[08-Oct-2020 21:02:09 Asia/Tokyo] エラー発生：SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' user_id = NULL' at line 1
-[08-Oct-2020 21:02:09 Asia/Tokyo] 日付が変わりました。日課を更新します。
-[08-Oct-2020 21:02:09 Asia/Tokyo] PHP Notice:  Undefined index: user_id in /Applications/MAMP/htdocs/home/output/nikkin/mypage.php on line 43
-[08-Oct-2020 21:02:09 Asia/Tokyo] エラー発生：SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' user_id = NULL' at line 1
-[08-Oct-2020 21:02:09 Asia/Tokyo] 日付が変わりました。日課を更新します。
-[08-Oct-2020 21:02:09 Asia/Tokyo] PHP Notice:  Undefined index: user_id in /Applications/MAMP/htdocs/home/output/nikkin/mypage.php on line 43
-[08-Oct-2020 21:02:09 Asia/Tokyo] エラー発生：SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' user_id = NULL' at line 1
-[08-Oct-2020 21:02:09 Asia/Tokyo] $routineDate:Array
-(
-    [0] => 2020-10-08
-    [1] => 2020-10-01
-    [2] => 2020-10-01
-    [3] => 2020-10-01
-)
-
-[08-Oct-2020 21:02:09 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[08-Oct-2020 21:02:09 Asia/Tokyo] 
-[08-Oct-2020 21:03:19 Asia/Tokyo] メッセージ：
-[08-Oct-2020 21:03:19 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
-[08-Oct-2020 21:03:19 Asia/Tokyo] [ページ名]：マイページ
-[08-Oct-2020 21:03:19 Asia/Tokyo] セッションID：grsu23506rvflf1heq52dlc9uc
-[08-Oct-2020 21:03:19 Asia/Tokyo] セッション変数の中身：Array
-(
-    [login_time] => 1602158529
-    [login_limit] => 2592000
+    [login_time] => 1606741518
+    [login_limit] => 3600
     [user_id] => 2
     [msg] => 
 )
 
-[08-Oct-2020 21:03:19 Asia/Tokyo] 現在日時タイムスタンプ：1602158599
-[08-Oct-2020 21:03:19 Asia/Tokyo] ログイン認証を行います。
-[08-Oct-2020 21:03:19 Asia/Tokyo] ログイン済みユーザーです。
-[08-Oct-2020 21:03:19 Asia/Tokyo] ログイン有効期限内のユーザーです。
-[08-Oct-2020 21:03:19 Asia/Tokyo] ログイン有効期限を更新します。
-[08-Oct-2020 21:03:19 Asia/Tokyo] データベースに接続します。
-[08-Oct-2020 21:03:19 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:03:19 Asia/Tokyo] $dbroutinedata:Array
+[30-Nov-2020 22:05:24 Asia/Tokyo] 現在日時タイムスタンプ：1606741524
+[30-Nov-2020 22:05:24 Asia/Tokyo] ログイン認証を行います。
+[30-Nov-2020 22:05:24 Asia/Tokyo] ログイン済みユーザーです。
+[30-Nov-2020 22:05:24 Asia/Tokyo] ログイン有効期限内のユーザーです。
+[30-Nov-2020 22:05:24 Asia/Tokyo] ログイン有効期限を更新します。
+[30-Nov-2020 22:05:24 Asia/Tokyo] 日記情報を取得します。
+[30-Nov-2020 22:05:24 Asia/Tokyo] ユーザーID：2
+[30-Nov-2020 22:05:24 Asia/Tokyo] 日記ID：179
+[30-Nov-2020 22:05:24 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:05:24 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:05:24 Asia/Tokyo] 商品ID179
+[30-Nov-2020 22:05:24 Asia/Tokyo] フォーム用DBデータ：Array
 (
-    [0] => Array
-        (
-            [id] => 1
-            [routine] => 腹筋３０回
-            [checked] => 1
-            [update_date] => 2020-10-08 20:50:11
-        )
-
-    [1] => Array
-        (
-            [id] => 2
-            [routine] => 背筋３０回
-            [checked] => 0
-            [update_date] => 2020-10-01 16:59:56
-        )
-
-    [2] => Array
-        (
-            [id] => 3
-            [routine] => 腕立て３０回
-            [checked] => 0
-            [update_date] => 2020-10-01 17:00:00
-        )
-
-    [3] => Array
-        (
-            [id] => 4
-            [routine] => ランニング３０分
-            [checked] => 0
-            [update_date] => 2020-10-01 17:00:03
-        )
-
+    [id] => 179
+    [user_id] => 2
+    [diary] => どら
+    [delete_flg] => 0
+    [create_date] => 2020-11-30 22:03:14
+    [update_date] => 2020-11-30 22:03:14
 )
 
-[08-Oct-2020 21:03:19 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:03:19 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:03:19 Asia/Tokyo] $dbUserData:Array
+[30-Nov-2020 22:05:24 Asia/Tokyo] POST送信を確認しました。
+[30-Nov-2020 22:05:24 Asia/Tokyo] POST情報：Array
 (
-    [username] => hirohiro
-    [target] => がんばります！
-できればらいしゅうも!
+    [diary] => どら
+    [delete_check] => on
+    [delete] => 削除
 )
 
-[08-Oct-2020 21:03:19 Asia/Tokyo] $dbRoutineDataNum:4
-[08-Oct-2020 21:03:19 Asia/Tokyo] 日付が変わりました。日課を更新します。
-[08-Oct-2020 21:03:19 Asia/Tokyo] エラー発生：SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' user_id = '2'' at line 1
-[08-Oct-2020 21:03:19 Asia/Tokyo] 日付が変わりました。日課を更新します。
-[08-Oct-2020 21:03:19 Asia/Tokyo] エラー発生：SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' user_id = '2'' at line 1
-[08-Oct-2020 21:03:19 Asia/Tokyo] 日付が変わりました。日課を更新します。
-[08-Oct-2020 21:03:19 Asia/Tokyo] エラー発生：SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' user_id = '2'' at line 1
-[08-Oct-2020 21:03:19 Asia/Tokyo] $routineDate:Array
+[30-Nov-2020 22:05:24 Asia/Tokyo] バリデーションチェックOKです。
+[30-Nov-2020 22:05:24 Asia/Tokyo] 削除します。
+[30-Nov-2020 22:05:24 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:05:24 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:05:24 Asia/Tokyo] 削除しました。
+[30-Nov-2020 22:05:24 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[30-Nov-2020 22:05:24 Asia/Tokyo] [ページ名]：筋トレ日記
+[30-Nov-2020 22:05:24 Asia/Tokyo] セッションID：msvhscclcc9p9v76ut7chhbmqs
+[30-Nov-2020 22:05:24 Asia/Tokyo] セッション変数の中身：Array
 (
-    [0] => 2020-10-08
-    [1] => 2020-10-01
-    [2] => 2020-10-01
-    [3] => 2020-10-01
+    [login_time] => 1606741524
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg] => 日記を削除しました。
 )
 
-[08-Oct-2020 21:03:19 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[08-Oct-2020 21:03:19 Asia/Tokyo] 
-[08-Oct-2020 21:03:20 Asia/Tokyo] メッセージ：
-[08-Oct-2020 21:03:20 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
-[08-Oct-2020 21:03:20 Asia/Tokyo] [ページ名]：マイページ
-[08-Oct-2020 21:03:20 Asia/Tokyo] セッションID：7dbl31p67o2192iun9jvkq19i1
-[08-Oct-2020 21:03:20 Asia/Tokyo] セッション変数の中身：Array
+[30-Nov-2020 22:05:24 Asia/Tokyo] 現在日時タイムスタンプ：1606741524
+[30-Nov-2020 22:05:24 Asia/Tokyo] ログイン認証を行います。
+[30-Nov-2020 22:05:24 Asia/Tokyo] ログイン済みユーザーです。
+[30-Nov-2020 22:05:24 Asia/Tokyo] ログイン有効期限内のユーザーです。
+[30-Nov-2020 22:05:24 Asia/Tokyo] ログイン有効期限を更新します。
+[30-Nov-2020 22:05:24 Asia/Tokyo] PHP Notice:  Undefined variable: currentMinNum in /Applications/MAMP/htdocs/nikkin/diary.php on line 21
+[30-Nov-2020 22:05:24 Asia/Tokyo] $currentMinNum:
+[30-Nov-2020 22:05:24 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:05:24 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:05:24 Asia/Tokyo] $dbDiaryNum:11
+[30-Nov-2020 22:05:24 Asia/Tokyo] $sql:SELECT * FROM diary WHERE user_id = :user_id AND delete_flg = 0 LIMIT :span OFFSET :currentMinNum
+[30-Nov-2020 22:05:24 Asia/Tokyo] $dataArray
 (
-    [login_time] => 1602158599
-    [login_limit] => 2592000
+    [:user_id] => 2
+)
+
+[30-Nov-2020 22:05:24 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Nov-2020 22:05:24 Asia/Tokyo] 
+[30-Nov-2020 22:06:31 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[30-Nov-2020 22:06:31 Asia/Tokyo] [ページ名]：マイページ
+[30-Nov-2020 22:06:31 Asia/Tokyo] セッションID：g4c0ekl54rraolu2oqs5pki5la
+[30-Nov-2020 22:06:31 Asia/Tokyo] セッション変数の中身：Array
+(
+    [login_time] => 1606741524
+    [login_limit] => 3600
     [user_id] => 2
     [msg] => 
 )
 
-[08-Oct-2020 21:03:20 Asia/Tokyo] 現在日時タイムスタンプ：1602158600
-[08-Oct-2020 21:03:20 Asia/Tokyo] ログイン認証を行います。
-[08-Oct-2020 21:03:20 Asia/Tokyo] ログイン済みユーザーです。
-[08-Oct-2020 21:03:20 Asia/Tokyo] ログイン有効期限内のユーザーです。
-[08-Oct-2020 21:03:20 Asia/Tokyo] ログイン有効期限を更新します。
-[08-Oct-2020 21:03:20 Asia/Tokyo] データベースに接続します。
-[08-Oct-2020 21:03:20 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:03:20 Asia/Tokyo] $dbroutinedata:Array
+[30-Nov-2020 22:06:31 Asia/Tokyo] 現在日時タイムスタンプ：1606741591
+[30-Nov-2020 22:06:31 Asia/Tokyo] ログイン認証を行います。
+[30-Nov-2020 22:06:31 Asia/Tokyo] ログイン済みユーザーです。
+[30-Nov-2020 22:06:31 Asia/Tokyo] ログイン有効期限内のユーザーです。
+[30-Nov-2020 22:06:31 Asia/Tokyo] ログイン有効期限を更新します。
+[30-Nov-2020 22:06:31 Asia/Tokyo] 日記情報を取得します。
+[30-Nov-2020 22:06:31 Asia/Tokyo] ユーザーID：2
+[30-Nov-2020 22:06:31 Asia/Tokyo] 日記ID：179
+[30-Nov-2020 22:06:31 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:06:31 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:06:31 Asia/Tokyo] 商品ID179
+[30-Nov-2020 22:06:31 Asia/Tokyo] フォーム用DBデータ：Array
 (
-    [0] => Array
-        (
-            [id] => 1
-            [routine] => 腹筋３０回
-            [checked] => 1
-            [update_date] => 2020-10-08 20:50:11
-        )
-
-    [1] => Array
-        (
-            [id] => 2
-            [routine] => 背筋３０回
-            [checked] => 0
-            [update_date] => 2020-10-01 16:59:56
-        )
-
-    [2] => Array
-        (
-            [id] => 3
-            [routine] => 腕立て３０回
-            [checked] => 0
-            [update_date] => 2020-10-01 17:00:00
-        )
-
-    [3] => Array
-        (
-            [id] => 4
-            [routine] => ランニング３０分
-            [checked] => 0
-            [update_date] => 2020-10-01 17:00:03
-        )
-
-)
-
-[08-Oct-2020 21:03:20 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:03:20 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:03:20 Asia/Tokyo] $dbUserData:Array
-(
-    [username] => hirohiro
-    [target] => がんばります！
-できればらいしゅうも!
-)
-
-[08-Oct-2020 21:03:20 Asia/Tokyo] $dbRoutineDataNum:4
-[08-Oct-2020 21:03:20 Asia/Tokyo] 日付が変わりました。日課を更新します。
-[08-Oct-2020 21:03:20 Asia/Tokyo] エラー発生：SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' user_id = '2'' at line 1
-[08-Oct-2020 21:03:20 Asia/Tokyo] 日付が変わりました。日課を更新します。
-[08-Oct-2020 21:03:20 Asia/Tokyo] エラー発生：SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' user_id = '2'' at line 1
-[08-Oct-2020 21:03:20 Asia/Tokyo] 日付が変わりました。日課を更新します。
-[08-Oct-2020 21:03:20 Asia/Tokyo] エラー発生：SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' user_id = '2'' at line 1
-[08-Oct-2020 21:03:20 Asia/Tokyo] $routineDate:Array
-(
-    [0] => 2020-10-08
-    [1] => 2020-10-01
-    [2] => 2020-10-01
-    [3] => 2020-10-01
-)
-
-[08-Oct-2020 21:03:20 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[08-Oct-2020 21:03:20 Asia/Tokyo] 
-[08-Oct-2020 21:04:01 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
-[08-Oct-2020 21:04:01 Asia/Tokyo] [ページ名]：ログイン
-[08-Oct-2020 21:04:01 Asia/Tokyo] セッションID：abdp56i0fhc21iglbjsq3i6dt5
-[08-Oct-2020 21:04:01 Asia/Tokyo] セッション変数の中身：Array
-(
-)
-
-[08-Oct-2020 21:04:01 Asia/Tokyo] 現在日時タイムスタンプ：1602158641
-[08-Oct-2020 21:04:01 Asia/Tokyo] ログイン認証を行います。
-[08-Oct-2020 21:04:01 Asia/Tokyo] ……未ログインユーザーです。
-[08-Oct-2020 21:04:01 Asia/Tokyo] POST送信を確認できませんでした。
-[08-Oct-2020 21:04:01 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[08-Oct-2020 21:04:01 Asia/Tokyo] 
-[08-Oct-2020 21:04:13 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
-[08-Oct-2020 21:04:13 Asia/Tokyo] [ページ名]：ログイン
-[08-Oct-2020 21:04:13 Asia/Tokyo] セッションID：te5569jnjad2idk6r7c1cdd1f0
-[08-Oct-2020 21:04:13 Asia/Tokyo] セッション変数の中身：Array
-(
-)
-
-[08-Oct-2020 21:04:13 Asia/Tokyo] 現在日時タイムスタンプ：1602158653
-[08-Oct-2020 21:04:13 Asia/Tokyo] ログイン認証を行います。
-[08-Oct-2020 21:04:13 Asia/Tokyo] ……未ログインユーザーです。
-[08-Oct-2020 21:04:13 Asia/Tokyo] POST送信を確認しました。
-[08-Oct-2020 21:04:13 Asia/Tokyo] 空白チェックOK。
-[08-Oct-2020 21:04:13 Asia/Tokyo] Eメール重複チェックを行います。
-[08-Oct-2020 21:04:13 Asia/Tokyo] データベースに接続します。
-[08-Oct-2020 21:04:13 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:04:13 Asia/Tokyo] バリデーションチェックOK。
-[08-Oct-2020 21:04:13 Asia/Tokyo] ログインを行います。
-[08-Oct-2020 21:04:13 Asia/Tokyo] データベースに接続します。
-[08-Oct-2020 21:04:13 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:04:13 Asia/Tokyo] ログインクエリ成功しました。
-[08-Oct-2020 21:04:13 Asia/Tokyo] パスワード認証成功。
-[08-Oct-2020 21:04:13 Asia/Tokyo] ログインリミットは720時間です。
-[08-Oct-2020 21:04:13 Asia/Tokyo] メッセージ：ログインしました！
-[08-Oct-2020 21:04:13 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
-[08-Oct-2020 21:04:13 Asia/Tokyo] [ページ名]：マイページ
-[08-Oct-2020 21:04:13 Asia/Tokyo] セッションID：fo2ohj5c27r1p414h3au4e6ooh
-[08-Oct-2020 21:04:13 Asia/Tokyo] セッション変数の中身：Array
-(
-    [login_time] => 1602158653
-    [login_limit] => 2592000
+    [id] => 179
     [user_id] => 2
-    [msg] => ログインしました！
+    [diary] => どら
+    [delete_flg] => 0
+    [create_date] => 2020-11-30 22:03:14
+    [update_date] => 2020-11-30 22:03:14
 )
 
-[08-Oct-2020 21:04:13 Asia/Tokyo] 現在日時タイムスタンプ：1602158653
-[08-Oct-2020 21:04:13 Asia/Tokyo] ログイン認証を行います。
-[08-Oct-2020 21:04:13 Asia/Tokyo] ログイン済みユーザーです。
-[08-Oct-2020 21:04:13 Asia/Tokyo] ログイン有効期限内のユーザーです。
-[08-Oct-2020 21:04:13 Asia/Tokyo] ログイン有効期限を更新します。
-[08-Oct-2020 21:04:13 Asia/Tokyo] データベースに接続します。
-[08-Oct-2020 21:04:13 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:04:13 Asia/Tokyo] $dbroutinedata:Array
+[30-Nov-2020 22:06:31 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Nov-2020 22:06:31 Asia/Tokyo] 
+[30-Nov-2020 22:06:33 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[30-Nov-2020 22:06:33 Asia/Tokyo] [ページ名]：マイページ
+[30-Nov-2020 22:06:33 Asia/Tokyo] セッションID：usvcdir19c2h1560v63h4emn2f
+[30-Nov-2020 22:06:33 Asia/Tokyo] セッション変数の中身：Array
 (
-    [0] => Array
-        (
-            [id] => 1
-            [routine] => 腹筋３０回
-            [checked] => 1
-            [update_date] => 2020-10-08 20:50:11
-        )
-
-    [1] => Array
-        (
-            [id] => 2
-            [routine] => 背筋３０回
-            [checked] => 0
-            [update_date] => 2020-10-01 16:59:56
-        )
-
-    [2] => Array
-        (
-            [id] => 3
-            [routine] => 腕立て３０回
-            [checked] => 0
-            [update_date] => 2020-10-01 17:00:00
-        )
-
-    [3] => Array
-        (
-            [id] => 4
-            [routine] => ランニング３０分
-            [checked] => 0
-            [update_date] => 2020-10-01 17:00:03
-        )
-
-)
-
-[08-Oct-2020 21:04:13 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:04:13 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:04:13 Asia/Tokyo] $dbUserData:Array
-(
-    [username] => hirohiro
-    [target] => がんばります！
-できればらいしゅうも!
-)
-
-[08-Oct-2020 21:04:13 Asia/Tokyo] $dbRoutineDataNum:4
-[08-Oct-2020 21:04:13 Asia/Tokyo] 日付が変わりました。日課を更新します。
-[08-Oct-2020 21:04:13 Asia/Tokyo] エラー発生：SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' user_id = '2'' at line 1
-[08-Oct-2020 21:04:13 Asia/Tokyo] 日付が変わりました。日課を更新します。
-[08-Oct-2020 21:04:13 Asia/Tokyo] エラー発生：SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' user_id = '2'' at line 1
-[08-Oct-2020 21:04:13 Asia/Tokyo] 日付が変わりました。日課を更新します。
-[08-Oct-2020 21:04:13 Asia/Tokyo] エラー発生：SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' user_id = '2'' at line 1
-[08-Oct-2020 21:04:13 Asia/Tokyo] $routineDate:Array
-(
-    [0] => 2020-10-08
-    [1] => 2020-10-01
-    [2] => 2020-10-01
-    [3] => 2020-10-01
-)
-
-[08-Oct-2020 21:04:13 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[08-Oct-2020 21:04:13 Asia/Tokyo] 
-[08-Oct-2020 21:06:18 Asia/Tokyo] メッセージ：
-[08-Oct-2020 21:06:18 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
-[08-Oct-2020 21:06:18 Asia/Tokyo] [ページ名]：マイページ
-[08-Oct-2020 21:06:18 Asia/Tokyo] セッションID：3hhn3c7acgladne810bpkvl8as
-[08-Oct-2020 21:06:18 Asia/Tokyo] セッション変数の中身：Array
-(
-    [login_time] => 1602158653
-    [login_limit] => 2592000
+    [login_time] => 1606741591
+    [login_limit] => 3600
     [user_id] => 2
     [msg] => 
 )
 
-[08-Oct-2020 21:06:18 Asia/Tokyo] 現在日時タイムスタンプ：1602158778
-[08-Oct-2020 21:06:18 Asia/Tokyo] ログイン認証を行います。
-[08-Oct-2020 21:06:18 Asia/Tokyo] ログイン済みユーザーです。
-[08-Oct-2020 21:06:18 Asia/Tokyo] ログイン有効期限内のユーザーです。
-[08-Oct-2020 21:06:18 Asia/Tokyo] ログイン有効期限を更新します。
-[08-Oct-2020 21:06:18 Asia/Tokyo] データベースに接続します。
-[08-Oct-2020 21:06:18 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:06:18 Asia/Tokyo] $dbroutinedata:Array
+[30-Nov-2020 22:06:33 Asia/Tokyo] 現在日時タイムスタンプ：1606741593
+[30-Nov-2020 22:06:33 Asia/Tokyo] ログイン認証を行います。
+[30-Nov-2020 22:06:33 Asia/Tokyo] ログイン済みユーザーです。
+[30-Nov-2020 22:06:33 Asia/Tokyo] ログイン有効期限内のユーザーです。
+[30-Nov-2020 22:06:33 Asia/Tokyo] ログイン有効期限を更新します。
+[30-Nov-2020 22:06:33 Asia/Tokyo] 日記情報を取得します。
+[30-Nov-2020 22:06:33 Asia/Tokyo] ユーザーID：2
+[30-Nov-2020 22:06:33 Asia/Tokyo] 日記ID：179
+[30-Nov-2020 22:06:33 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:06:33 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:06:33 Asia/Tokyo] 商品ID179
+[30-Nov-2020 22:06:33 Asia/Tokyo] フォーム用DBデータ：Array
 (
-    [0] => Array
-        (
-            [id] => 1
-            [routine] => 腹筋３０回
-            [checked] => 1
-            [update_date] => 2020-10-08 20:50:11
-        )
-
-    [1] => Array
-        (
-            [id] => 2
-            [routine] => 背筋３０回
-            [checked] => 0
-            [update_date] => 2020-10-01 16:59:56
-        )
-
-    [2] => Array
-        (
-            [id] => 3
-            [routine] => 腕立て３０回
-            [checked] => 0
-            [update_date] => 2020-10-01 17:00:00
-        )
-
-    [3] => Array
-        (
-            [id] => 4
-            [routine] => ランニング３０分
-            [checked] => 0
-            [update_date] => 2020-10-01 17:00:03
-        )
-
+    [id] => 179
+    [user_id] => 2
+    [diary] => どら
+    [delete_flg] => 0
+    [create_date] => 2020-11-30 22:03:14
+    [update_date] => 2020-11-30 22:03:14
 )
 
-[08-Oct-2020 21:06:18 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:06:18 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:06:18 Asia/Tokyo] $dbUserData:Array
+[30-Nov-2020 22:06:33 Asia/Tokyo] POST送信を確認しました。
+[30-Nov-2020 22:06:33 Asia/Tokyo] POST情報：Array
 (
-    [username] => hirohiro
-    [target] => がんばります！
-できればらいしゅうも!
+    [diary] => どら
+    [delete_check] => on
+    [delete] => 削除
 )
 
-[08-Oct-2020 21:06:18 Asia/Tokyo] $dbRoutineDataNum:4
-[08-Oct-2020 21:06:18 Asia/Tokyo] 日付が変わりました。日課を更新します。
-[08-Oct-2020 21:06:18 Asia/Tokyo] データベースに接続します。
-[08-Oct-2020 21:06:18 Asia/Tokyo] エラー発生：SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' user_id = '2'' at line 1
-[08-Oct-2020 21:06:18 Asia/Tokyo] 日付が変わりました。日課を更新します。
-[08-Oct-2020 21:06:18 Asia/Tokyo] データベースに接続します。
-[08-Oct-2020 21:06:18 Asia/Tokyo] エラー発生：SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' user_id = '2'' at line 1
-[08-Oct-2020 21:06:18 Asia/Tokyo] 日付が変わりました。日課を更新します。
-[08-Oct-2020 21:06:18 Asia/Tokyo] データベースに接続します。
-[08-Oct-2020 21:06:18 Asia/Tokyo] エラー発生：SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' user_id = '2'' at line 1
-[08-Oct-2020 21:06:18 Asia/Tokyo] $routineDate:Array
+[30-Nov-2020 22:06:33 Asia/Tokyo] バリデーションチェックOKです。
+[30-Nov-2020 22:06:33 Asia/Tokyo] 削除します。
+[30-Nov-2020 22:06:33 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:06:33 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:06:33 Asia/Tokyo] 削除しました。
+[30-Nov-2020 22:06:33 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[30-Nov-2020 22:06:33 Asia/Tokyo] [ページ名]：筋トレ日記
+[30-Nov-2020 22:06:33 Asia/Tokyo] セッションID：h0rqcqi0hklh1ma01ejme70daq
+[30-Nov-2020 22:06:33 Asia/Tokyo] セッション変数の中身：Array
 (
-    [0] => 2020-10-08
-    [1] => 2020-10-01
-    [2] => 2020-10-01
-    [3] => 2020-10-01
+    [login_time] => 1606741593
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg] => 日記を削除しました。
 )
 
-[08-Oct-2020 21:06:18 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[08-Oct-2020 21:06:18 Asia/Tokyo] 
-[08-Oct-2020 21:07:50 Asia/Tokyo] メッセージ：
-[08-Oct-2020 21:07:50 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
-[08-Oct-2020 21:07:50 Asia/Tokyo] [ページ名]：マイページ
-[08-Oct-2020 21:07:50 Asia/Tokyo] セッションID：lsl812ojdnecraadsm4pblqi93
-[08-Oct-2020 21:07:50 Asia/Tokyo] セッション変数の中身：Array
+[30-Nov-2020 22:06:33 Asia/Tokyo] 現在日時タイムスタンプ：1606741593
+[30-Nov-2020 22:06:33 Asia/Tokyo] ログイン認証を行います。
+[30-Nov-2020 22:06:33 Asia/Tokyo] ログイン済みユーザーです。
+[30-Nov-2020 22:06:33 Asia/Tokyo] ログイン有効期限内のユーザーです。
+[30-Nov-2020 22:06:33 Asia/Tokyo] ログイン有効期限を更新します。
+[30-Nov-2020 22:06:33 Asia/Tokyo] PHP Notice:  Undefined variable: currentMinNum in /Applications/MAMP/htdocs/nikkin/diary.php on line 21
+[30-Nov-2020 22:06:33 Asia/Tokyo] $currentMinNum:
+[30-Nov-2020 22:06:33 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:06:33 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:06:33 Asia/Tokyo] $dbDiaryNum:10
+[30-Nov-2020 22:06:33 Asia/Tokyo] $sql:SELECT * FROM diary WHERE user_id = :user_id AND delete_flg = 0 LIMIT :span OFFSET :currentMinNum
+[30-Nov-2020 22:06:33 Asia/Tokyo] $dataArray
 (
-    [login_time] => 1602158778
-    [login_limit] => 2592000
+    [:user_id] => 2
+)
+
+[30-Nov-2020 22:06:33 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Nov-2020 22:06:33 Asia/Tokyo] 
+[30-Nov-2020 22:06:34 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[30-Nov-2020 22:06:34 Asia/Tokyo] [ページ名]：マイページ
+[30-Nov-2020 22:06:34 Asia/Tokyo] セッションID：ek09o4en9tjlsv1ur38qfq603s
+[30-Nov-2020 22:06:34 Asia/Tokyo] セッション変数の中身：Array
+(
+    [login_time] => 1606741593
+    [login_limit] => 3600
     [user_id] => 2
     [msg] => 
 )
 
-[08-Oct-2020 21:07:50 Asia/Tokyo] 現在日時タイムスタンプ：1602158870
-[08-Oct-2020 21:07:50 Asia/Tokyo] ログイン認証を行います。
-[08-Oct-2020 21:07:50 Asia/Tokyo] ログイン済みユーザーです。
-[08-Oct-2020 21:07:50 Asia/Tokyo] ログイン有効期限内のユーザーです。
-[08-Oct-2020 21:07:50 Asia/Tokyo] ログイン有効期限を更新します。
-[08-Oct-2020 21:07:50 Asia/Tokyo] データベースに接続します。
-[08-Oct-2020 21:07:50 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:07:50 Asia/Tokyo] $dbroutinedata:Array
+[30-Nov-2020 22:06:34 Asia/Tokyo] 現在日時タイムスタンプ：1606741594
+[30-Nov-2020 22:06:34 Asia/Tokyo] ログイン認証を行います。
+[30-Nov-2020 22:06:34 Asia/Tokyo] ログイン済みユーザーです。
+[30-Nov-2020 22:06:34 Asia/Tokyo] ログイン有効期限内のユーザーです。
+[30-Nov-2020 22:06:34 Asia/Tokyo] ログイン有効期限を更新します。
+[30-Nov-2020 22:06:34 Asia/Tokyo] 日記情報を取得します。
+[30-Nov-2020 22:06:34 Asia/Tokyo] ユーザーID：2
+[30-Nov-2020 22:06:34 Asia/Tokyo] 日記ID：180
+[30-Nov-2020 22:06:34 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:06:34 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:06:34 Asia/Tokyo] 商品ID180
+[30-Nov-2020 22:06:34 Asia/Tokyo] フォーム用DBデータ：Array
 (
-    [0] => Array
-        (
-            [id] => 1
-            [routine] => 腹筋３０回
-            [checked] => 1
-            [update_date] => 2020-10-08 20:50:11
-        )
-
-    [1] => Array
-        (
-            [id] => 2
-            [routine] => 背筋３０回
-            [checked] => 0
-            [update_date] => 2020-10-01 16:59:56
-        )
-
-    [2] => Array
-        (
-            [id] => 3
-            [routine] => 腕立て３０回
-            [checked] => 0
-            [update_date] => 2020-10-01 17:00:00
-        )
-
-    [3] => Array
-        (
-            [id] => 4
-            [routine] => ランニング３０分
-            [checked] => 0
-            [update_date] => 2020-10-01 17:00:03
-        )
-
+    [id] => 180
+    [user_id] => 2
+    [diary] => ぶら
+    [delete_flg] => 0
+    [create_date] => 2020-11-30 22:03:19
+    [update_date] => 2020-11-30 22:03:19
 )
 
-[08-Oct-2020 21:07:50 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:07:50 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:07:50 Asia/Tokyo] $dbUserData:Array
+[30-Nov-2020 22:06:34 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Nov-2020 22:06:34 Asia/Tokyo] 
+[30-Nov-2020 22:06:36 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[30-Nov-2020 22:06:36 Asia/Tokyo] [ページ名]：マイページ
+[30-Nov-2020 22:06:36 Asia/Tokyo] セッションID：pq46nqfffq1e7dla976vdbl829
+[30-Nov-2020 22:06:36 Asia/Tokyo] セッション変数の中身：Array
 (
-    [username] => hirohiro
-    [target] => がんばります！
-できればらいしゅうも!
-)
-
-[08-Oct-2020 21:07:50 Asia/Tokyo] $dbRoutineDataNum:4
-[08-Oct-2020 21:07:50 Asia/Tokyo] 日付が変わりました。日課を更新します。
-[08-Oct-2020 21:07:50 Asia/Tokyo] データベースに接続します。
-[08-Oct-2020 21:07:50 Asia/Tokyo] エラー発生：SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' user_id = '2'' at line 1
-[08-Oct-2020 21:07:50 Asia/Tokyo] 日付が変わりました。日課を更新します。
-[08-Oct-2020 21:07:50 Asia/Tokyo] データベースに接続します。
-[08-Oct-2020 21:07:50 Asia/Tokyo] エラー発生：SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' user_id = '2'' at line 1
-[08-Oct-2020 21:07:50 Asia/Tokyo] 日付が変わりました。日課を更新します。
-[08-Oct-2020 21:07:50 Asia/Tokyo] データベースに接続します。
-[08-Oct-2020 21:07:50 Asia/Tokyo] エラー発生：SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' user_id = '2'' at line 1
-[08-Oct-2020 21:07:50 Asia/Tokyo] $routineDate:Array
-(
-    [0] => 2020-10-08
-    [1] => 2020-10-01
-    [2] => 2020-10-01
-    [3] => 2020-10-01
-)
-
-[08-Oct-2020 21:07:50 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[08-Oct-2020 21:07:50 Asia/Tokyo] 
-[08-Oct-2020 21:08:15 Asia/Tokyo] メッセージ：
-[08-Oct-2020 21:08:15 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
-[08-Oct-2020 21:08:15 Asia/Tokyo] [ページ名]：マイページ
-[08-Oct-2020 21:08:15 Asia/Tokyo] セッションID：sd36pir7vddhf1v36te0555oj3
-[08-Oct-2020 21:08:15 Asia/Tokyo] セッション変数の中身：Array
-(
-    [login_time] => 1602158870
-    [login_limit] => 2592000
+    [login_time] => 1606741594
+    [login_limit] => 3600
     [user_id] => 2
     [msg] => 
 )
 
-[08-Oct-2020 21:08:15 Asia/Tokyo] 現在日時タイムスタンプ：1602158895
-[08-Oct-2020 21:08:15 Asia/Tokyo] ログイン認証を行います。
-[08-Oct-2020 21:08:15 Asia/Tokyo] ログイン済みユーザーです。
-[08-Oct-2020 21:08:15 Asia/Tokyo] ログイン有効期限内のユーザーです。
-[08-Oct-2020 21:08:15 Asia/Tokyo] ログイン有効期限を更新します。
-[08-Oct-2020 21:08:15 Asia/Tokyo] データベースに接続します。
-[08-Oct-2020 21:08:15 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:08:15 Asia/Tokyo] $dbroutinedata:Array
+[30-Nov-2020 22:06:36 Asia/Tokyo] 現在日時タイムスタンプ：1606741596
+[30-Nov-2020 22:06:36 Asia/Tokyo] ログイン認証を行います。
+[30-Nov-2020 22:06:36 Asia/Tokyo] ログイン済みユーザーです。
+[30-Nov-2020 22:06:36 Asia/Tokyo] ログイン有効期限内のユーザーです。
+[30-Nov-2020 22:06:36 Asia/Tokyo] ログイン有効期限を更新します。
+[30-Nov-2020 22:06:36 Asia/Tokyo] 日記情報を取得します。
+[30-Nov-2020 22:06:36 Asia/Tokyo] ユーザーID：2
+[30-Nov-2020 22:06:36 Asia/Tokyo] 日記ID：180
+[30-Nov-2020 22:06:36 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:06:36 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:06:36 Asia/Tokyo] 商品ID180
+[30-Nov-2020 22:06:36 Asia/Tokyo] フォーム用DBデータ：Array
 (
-    [0] => Array
-        (
-            [id] => 1
-            [routine] => 腹筋３０回
-            [checked] => 1
-            [update_date] => 2020-10-08 20:50:11
-        )
-
-    [1] => Array
-        (
-            [id] => 2
-            [routine] => 背筋３０回
-            [checked] => 0
-            [update_date] => 2020-10-01 16:59:56
-        )
-
-    [2] => Array
-        (
-            [id] => 3
-            [routine] => 腕立て３０回
-            [checked] => 0
-            [update_date] => 2020-10-01 17:00:00
-        )
-
-    [3] => Array
-        (
-            [id] => 4
-            [routine] => ランニング３０分
-            [checked] => 0
-            [update_date] => 2020-10-01 17:00:03
-        )
-
+    [id] => 180
+    [user_id] => 2
+    [diary] => ぶら
+    [delete_flg] => 0
+    [create_date] => 2020-11-30 22:03:19
+    [update_date] => 2020-11-30 22:03:19
 )
 
-[08-Oct-2020 21:08:15 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:08:15 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:08:15 Asia/Tokyo] $dbUserData:Array
+[30-Nov-2020 22:06:36 Asia/Tokyo] POST送信を確認しました。
+[30-Nov-2020 22:06:36 Asia/Tokyo] POST情報：Array
 (
-    [username] => hirohiro
-    [target] => がんばります！
-できればらいしゅうも!
+    [diary] => ぶら
+    [delete_check] => on
+    [delete] => 削除
 )
 
-[08-Oct-2020 21:08:15 Asia/Tokyo] $dbRoutineDataNum:4
-[08-Oct-2020 21:08:15 Asia/Tokyo] 日付が変わりました。日課を更新します。
-[08-Oct-2020 21:08:15 Asia/Tokyo] データベースに接続します。
-[08-Oct-2020 21:08:15 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:08:15 Asia/Tokyo] 日付が変わりました。日課を更新します。
-[08-Oct-2020 21:08:15 Asia/Tokyo] データベースに接続します。
-[08-Oct-2020 21:08:15 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:08:15 Asia/Tokyo] 日付が変わりました。日課を更新します。
-[08-Oct-2020 21:08:15 Asia/Tokyo] データベースに接続します。
-[08-Oct-2020 21:08:15 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:08:15 Asia/Tokyo] $routineDate:Array
+[30-Nov-2020 22:06:36 Asia/Tokyo] バリデーションチェックOKです。
+[30-Nov-2020 22:06:36 Asia/Tokyo] 削除します。
+[30-Nov-2020 22:06:36 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:06:36 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:06:36 Asia/Tokyo] 削除しました。
+[30-Nov-2020 22:06:36 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[30-Nov-2020 22:06:36 Asia/Tokyo] [ページ名]：筋トレ日記
+[30-Nov-2020 22:06:36 Asia/Tokyo] セッションID：if2mrsmleo3egh801qcq4r524a
+[30-Nov-2020 22:06:36 Asia/Tokyo] セッション変数の中身：Array
 (
-    [0] => 2020-10-08
-    [1] => 2020-10-01
-    [2] => 2020-10-01
-    [3] => 2020-10-01
+    [login_time] => 1606741596
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg] => 日記を削除しました。
 )
 
-[08-Oct-2020 21:08:15 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[08-Oct-2020 21:08:15 Asia/Tokyo] 
-[08-Oct-2020 21:08:16 Asia/Tokyo] メッセージ：
-[08-Oct-2020 21:08:16 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
-[08-Oct-2020 21:08:16 Asia/Tokyo] [ページ名]：マイページ
-[08-Oct-2020 21:08:16 Asia/Tokyo] セッションID：3n8v0gv074dld0g4sgkos6p4ud
-[08-Oct-2020 21:08:16 Asia/Tokyo] セッション変数の中身：Array
+[30-Nov-2020 22:06:36 Asia/Tokyo] 現在日時タイムスタンプ：1606741596
+[30-Nov-2020 22:06:36 Asia/Tokyo] ログイン認証を行います。
+[30-Nov-2020 22:06:36 Asia/Tokyo] ログイン済みユーザーです。
+[30-Nov-2020 22:06:36 Asia/Tokyo] ログイン有効期限内のユーザーです。
+[30-Nov-2020 22:06:36 Asia/Tokyo] ログイン有効期限を更新します。
+[30-Nov-2020 22:06:36 Asia/Tokyo] PHP Notice:  Undefined variable: currentMinNum in /Applications/MAMP/htdocs/nikkin/diary.php on line 21
+[30-Nov-2020 22:06:36 Asia/Tokyo] $currentMinNum:
+[30-Nov-2020 22:06:36 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:06:36 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:06:36 Asia/Tokyo] $dbDiaryNum:9
+[30-Nov-2020 22:06:36 Asia/Tokyo] $sql:SELECT * FROM diary WHERE user_id = :user_id AND delete_flg = 0 LIMIT :span OFFSET :currentMinNum
+[30-Nov-2020 22:06:36 Asia/Tokyo] $dataArray
 (
-    [login_time] => 1602158895
-    [login_limit] => 2592000
+    [:user_id] => 2
+)
+
+[30-Nov-2020 22:06:36 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Nov-2020 22:06:36 Asia/Tokyo] 
+[30-Nov-2020 22:06:37 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[30-Nov-2020 22:06:37 Asia/Tokyo] [ページ名]：マイページ
+[30-Nov-2020 22:06:37 Asia/Tokyo] セッションID：vv42cssf13upmo70m0deek8je6
+[30-Nov-2020 22:06:37 Asia/Tokyo] セッション変数の中身：Array
+(
+    [login_time] => 1606741596
+    [login_limit] => 3600
     [user_id] => 2
     [msg] => 
 )
 
-[08-Oct-2020 21:08:16 Asia/Tokyo] 現在日時タイムスタンプ：1602158896
-[08-Oct-2020 21:08:16 Asia/Tokyo] ログイン認証を行います。
-[08-Oct-2020 21:08:16 Asia/Tokyo] ログイン済みユーザーです。
-[08-Oct-2020 21:08:16 Asia/Tokyo] ログイン有効期限内のユーザーです。
-[08-Oct-2020 21:08:16 Asia/Tokyo] ログイン有効期限を更新します。
-[08-Oct-2020 21:08:16 Asia/Tokyo] データベースに接続します。
-[08-Oct-2020 21:08:16 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:08:16 Asia/Tokyo] $dbroutinedata:Array
+[30-Nov-2020 22:06:37 Asia/Tokyo] 現在日時タイムスタンプ：1606741597
+[30-Nov-2020 22:06:37 Asia/Tokyo] ログイン認証を行います。
+[30-Nov-2020 22:06:37 Asia/Tokyo] ログイン済みユーザーです。
+[30-Nov-2020 22:06:37 Asia/Tokyo] ログイン有効期限内のユーザーです。
+[30-Nov-2020 22:06:37 Asia/Tokyo] ログイン有効期限を更新します。
+[30-Nov-2020 22:06:37 Asia/Tokyo] 日記情報を取得します。
+[30-Nov-2020 22:06:37 Asia/Tokyo] ユーザーID：2
+[30-Nov-2020 22:06:37 Asia/Tokyo] 日記ID：178
+[30-Nov-2020 22:06:37 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:06:37 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:06:37 Asia/Tokyo] 商品ID178
+[30-Nov-2020 22:06:37 Asia/Tokyo] フォーム用DBデータ：Array
 (
-    [0] => Array
-        (
-            [id] => 1
-            [routine] => 腹筋３０回
-            [checked] => 1
-            [update_date] => 2020-10-08 20:50:11
-        )
-
-    [1] => Array
-        (
-            [id] => 2
-            [routine] => 背筋３０回
-            [checked] => 0
-            [update_date] => 2020-10-01 16:59:56
-        )
-
-    [2] => Array
-        (
-            [id] => 3
-            [routine] => 腕立て３０回
-            [checked] => 0
-            [update_date] => 2020-10-01 17:00:00
-        )
-
-    [3] => Array
-        (
-            [id] => 4
-            [routine] => ランニング３０分
-            [checked] => 0
-            [update_date] => 2020-10-01 17:00:03
-        )
-
+    [id] => 178
+    [user_id] => 2
+    [diary] => て
+    [delete_flg] => 0
+    [create_date] => 2020-11-30 22:03:11
+    [update_date] => 2020-11-30 22:03:11
 )
 
-[08-Oct-2020 21:08:16 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:08:16 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:08:16 Asia/Tokyo] $dbUserData:Array
+[30-Nov-2020 22:06:37 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Nov-2020 22:06:37 Asia/Tokyo] 
+[30-Nov-2020 22:06:38 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[30-Nov-2020 22:06:38 Asia/Tokyo] [ページ名]：マイページ
+[30-Nov-2020 22:06:38 Asia/Tokyo] セッションID：bsn0tpoomhkie8qdkcbcus5bt9
+[30-Nov-2020 22:06:38 Asia/Tokyo] セッション変数の中身：Array
 (
-    [username] => hirohiro
-    [target] => がんばります！
-できればらいしゅうも!
-)
-
-[08-Oct-2020 21:08:16 Asia/Tokyo] $dbRoutineDataNum:4
-[08-Oct-2020 21:08:16 Asia/Tokyo] 日付が変わりました。日課を更新します。
-[08-Oct-2020 21:08:16 Asia/Tokyo] データベースに接続します。
-[08-Oct-2020 21:08:16 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:08:16 Asia/Tokyo] 日付が変わりました。日課を更新します。
-[08-Oct-2020 21:08:16 Asia/Tokyo] データベースに接続します。
-[08-Oct-2020 21:08:16 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:08:16 Asia/Tokyo] 日付が変わりました。日課を更新します。
-[08-Oct-2020 21:08:16 Asia/Tokyo] データベースに接続します。
-[08-Oct-2020 21:08:16 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:08:16 Asia/Tokyo] $routineDate:Array
-(
-    [0] => 2020-10-08
-    [1] => 2020-10-01
-    [2] => 2020-10-01
-    [3] => 2020-10-01
-)
-
-[08-Oct-2020 21:08:16 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[08-Oct-2020 21:08:16 Asia/Tokyo] 
-[08-Oct-2020 21:08:56 Asia/Tokyo] メッセージ：
-[08-Oct-2020 21:08:56 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
-[08-Oct-2020 21:08:56 Asia/Tokyo] [ページ名]：マイページ
-[08-Oct-2020 21:08:56 Asia/Tokyo] セッションID：dsbpq7oltvoqpip267un2bjj8v
-[08-Oct-2020 21:08:56 Asia/Tokyo] セッション変数の中身：Array
-(
-    [login_time] => 1602158896
-    [login_limit] => 2592000
+    [login_time] => 1606741597
+    [login_limit] => 3600
     [user_id] => 2
     [msg] => 
 )
 
-[08-Oct-2020 21:08:56 Asia/Tokyo] 現在日時タイムスタンプ：1602158936
-[08-Oct-2020 21:08:56 Asia/Tokyo] ログイン認証を行います。
-[08-Oct-2020 21:08:56 Asia/Tokyo] ログイン済みユーザーです。
-[08-Oct-2020 21:08:56 Asia/Tokyo] ログイン有効期限内のユーザーです。
-[08-Oct-2020 21:08:56 Asia/Tokyo] ログイン有効期限を更新します。
-[08-Oct-2020 21:08:56 Asia/Tokyo] データベースに接続します。
-[08-Oct-2020 21:08:56 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:08:56 Asia/Tokyo] $dbroutinedata:Array
+[30-Nov-2020 22:06:38 Asia/Tokyo] 現在日時タイムスタンプ：1606741598
+[30-Nov-2020 22:06:38 Asia/Tokyo] ログイン認証を行います。
+[30-Nov-2020 22:06:38 Asia/Tokyo] ログイン済みユーザーです。
+[30-Nov-2020 22:06:38 Asia/Tokyo] ログイン有効期限内のユーザーです。
+[30-Nov-2020 22:06:38 Asia/Tokyo] ログイン有効期限を更新します。
+[30-Nov-2020 22:06:38 Asia/Tokyo] 日記情報を取得します。
+[30-Nov-2020 22:06:38 Asia/Tokyo] ユーザーID：2
+[30-Nov-2020 22:06:38 Asia/Tokyo] 日記ID：178
+[30-Nov-2020 22:06:38 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:06:38 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:06:38 Asia/Tokyo] 商品ID178
+[30-Nov-2020 22:06:38 Asia/Tokyo] フォーム用DBデータ：Array
 (
-    [0] => Array
-        (
-            [id] => 1
-            [routine] => 腹筋３０回
-            [checked] => 1
-            [update_date] => 2020-10-08 20:50:11
-        )
-
-    [1] => Array
-        (
-            [id] => 2
-            [routine] => 背筋３０回
-            [checked] => 1
-            [update_date] => 2020-10-08 21:08:52
-        )
-
-    [2] => Array
-        (
-            [id] => 3
-            [routine] => 腕立て３０回
-            [checked] => 1
-            [update_date] => 2020-10-08 21:08:53
-        )
-
-    [3] => Array
-        (
-            [id] => 4
-            [routine] => ランニング３０分
-            [checked] => 1
-            [update_date] => 2020-10-08 21:08:53
-        )
-
+    [id] => 178
+    [user_id] => 2
+    [diary] => て
+    [delete_flg] => 0
+    [create_date] => 2020-11-30 22:03:11
+    [update_date] => 2020-11-30 22:03:11
 )
 
-[08-Oct-2020 21:08:56 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:08:56 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:08:56 Asia/Tokyo] $dbUserData:Array
+[30-Nov-2020 22:06:38 Asia/Tokyo] POST送信を確認しました。
+[30-Nov-2020 22:06:38 Asia/Tokyo] POST情報：Array
 (
-    [username] => hirohiro
-    [target] => がんばります！
-できればらいしゅうも!
+    [diary] => て
+    [delete_check] => on
+    [delete] => 削除
 )
 
-[08-Oct-2020 21:08:56 Asia/Tokyo] $dbRoutineDataNum:4
-[08-Oct-2020 21:08:56 Asia/Tokyo] $routineDate:Array
+[30-Nov-2020 22:06:38 Asia/Tokyo] バリデーションチェックOKです。
+[30-Nov-2020 22:06:38 Asia/Tokyo] 削除します。
+[30-Nov-2020 22:06:38 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:06:38 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:06:38 Asia/Tokyo] 削除しました。
+[30-Nov-2020 22:06:38 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[30-Nov-2020 22:06:38 Asia/Tokyo] [ページ名]：筋トレ日記
+[30-Nov-2020 22:06:38 Asia/Tokyo] セッションID：lovndgvnpdmftmsmkk832a3dpm
+[30-Nov-2020 22:06:38 Asia/Tokyo] セッション変数の中身：Array
 (
-    [0] => 2020-10-08
-    [1] => 2020-10-08
-    [2] => 2020-10-08
-    [3] => 2020-10-08
+    [login_time] => 1606741598
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg] => 日記を削除しました。
 )
 
-[08-Oct-2020 21:08:56 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[08-Oct-2020 21:08:56 Asia/Tokyo] 
-[08-Oct-2020 21:10:08 Asia/Tokyo] メッセージ：
-[08-Oct-2020 21:10:08 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
-[08-Oct-2020 21:10:08 Asia/Tokyo] [ページ名]：マイページ
-[08-Oct-2020 21:10:08 Asia/Tokyo] セッションID：5ra5k3hpepobpbbf1sd2eagm3u
-[08-Oct-2020 21:10:08 Asia/Tokyo] セッション変数の中身：Array
+[30-Nov-2020 22:06:38 Asia/Tokyo] 現在日時タイムスタンプ：1606741598
+[30-Nov-2020 22:06:38 Asia/Tokyo] ログイン認証を行います。
+[30-Nov-2020 22:06:38 Asia/Tokyo] ログイン済みユーザーです。
+[30-Nov-2020 22:06:38 Asia/Tokyo] ログイン有効期限内のユーザーです。
+[30-Nov-2020 22:06:38 Asia/Tokyo] ログイン有効期限を更新します。
+[30-Nov-2020 22:06:38 Asia/Tokyo] PHP Notice:  Undefined variable: currentMinNum in /Applications/MAMP/htdocs/nikkin/diary.php on line 21
+[30-Nov-2020 22:06:38 Asia/Tokyo] $currentMinNum:
+[30-Nov-2020 22:06:38 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:06:38 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:06:38 Asia/Tokyo] $dbDiaryNum:8
+[30-Nov-2020 22:06:38 Asia/Tokyo] $sql:SELECT * FROM diary WHERE user_id = :user_id AND delete_flg = 0 LIMIT :span OFFSET :currentMinNum
+[30-Nov-2020 22:06:38 Asia/Tokyo] $dataArray
 (
-    [login_time] => 1602158936
-    [login_limit] => 2592000
+    [:user_id] => 2
+)
+
+[30-Nov-2020 22:06:38 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Nov-2020 22:06:38 Asia/Tokyo] 
+[30-Nov-2020 22:06:39 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[30-Nov-2020 22:06:39 Asia/Tokyo] [ページ名]：マイページ
+[30-Nov-2020 22:06:39 Asia/Tokyo] セッションID：634od2e8ful091dcgp8g3h4m9j
+[30-Nov-2020 22:06:39 Asia/Tokyo] セッション変数の中身：Array
+(
+    [login_time] => 1606741598
+    [login_limit] => 3600
     [user_id] => 2
     [msg] => 
 )
 
-[08-Oct-2020 21:10:08 Asia/Tokyo] 現在日時タイムスタンプ：1602159008
-[08-Oct-2020 21:10:08 Asia/Tokyo] ログイン認証を行います。
-[08-Oct-2020 21:10:08 Asia/Tokyo] ログイン済みユーザーです。
-[08-Oct-2020 21:10:08 Asia/Tokyo] ログイン有効期限内のユーザーです。
-[08-Oct-2020 21:10:08 Asia/Tokyo] ログイン有効期限を更新します。
-[08-Oct-2020 21:10:08 Asia/Tokyo] データベースに接続します。
-[08-Oct-2020 21:10:08 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:10:08 Asia/Tokyo] $dbroutinedata:Array
+[30-Nov-2020 22:06:39 Asia/Tokyo] 現在日時タイムスタンプ：1606741599
+[30-Nov-2020 22:06:39 Asia/Tokyo] ログイン認証を行います。
+[30-Nov-2020 22:06:39 Asia/Tokyo] ログイン済みユーザーです。
+[30-Nov-2020 22:06:39 Asia/Tokyo] ログイン有効期限内のユーザーです。
+[30-Nov-2020 22:06:39 Asia/Tokyo] ログイン有効期限を更新します。
+[30-Nov-2020 22:06:39 Asia/Tokyo] 日記情報を取得します。
+[30-Nov-2020 22:06:39 Asia/Tokyo] ユーザーID：2
+[30-Nov-2020 22:06:39 Asia/Tokyo] 日記ID：177
+[30-Nov-2020 22:06:39 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:06:39 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:06:39 Asia/Tokyo] 商品ID177
+[30-Nov-2020 22:06:39 Asia/Tokyo] フォーム用DBデータ：Array
 (
-    [0] => Array
-        (
-            [id] => 1
-            [routine] => 腹筋３０回
-            [checked] => 1
-            [update_date] => 2020-10-01 20:50:11
-        )
-
-    [1] => Array
-        (
-            [id] => 2
-            [routine] => 背筋３０回
-            [checked] => 1
-            [update_date] => 2020-10-08 21:08:52
-        )
-
-    [2] => Array
-        (
-            [id] => 3
-            [routine] => 腕立て３０回
-            [checked] => 1
-            [update_date] => 2020-10-08 21:08:53
-        )
-
-    [3] => Array
-        (
-            [id] => 4
-            [routine] => ランニング３０分
-            [checked] => 1
-            [update_date] => 2020-10-08 21:08:53
-        )
-
+    [id] => 177
+    [user_id] => 2
+    [diary] => うえ
+    [delete_flg] => 0
+    [create_date] => 2020-11-30 22:03:09
+    [update_date] => 2020-11-30 22:03:09
 )
 
-[08-Oct-2020 21:10:08 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:10:08 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:10:08 Asia/Tokyo] $dbUserData:Array
+[30-Nov-2020 22:06:39 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Nov-2020 22:06:39 Asia/Tokyo] 
+[30-Nov-2020 22:06:41 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[30-Nov-2020 22:06:41 Asia/Tokyo] [ページ名]：マイページ
+[30-Nov-2020 22:06:41 Asia/Tokyo] セッションID：rbfg4d831oc7ghnjk1tmjaobf5
+[30-Nov-2020 22:06:41 Asia/Tokyo] セッション変数の中身：Array
 (
-    [username] => hirohiro
-    [target] => がんばります！
-できればらいしゅうも!
-)
-
-[08-Oct-2020 21:10:08 Asia/Tokyo] $dbRoutineDataNum:4
-[08-Oct-2020 21:10:08 Asia/Tokyo] 日付が変わりました。日課を更新します。
-[08-Oct-2020 21:10:08 Asia/Tokyo] データベースに接続します。
-[08-Oct-2020 21:10:08 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:10:08 Asia/Tokyo] $routineDate:Array
-(
-    [0] => 2020-10-01
-    [1] => 2020-10-08
-    [2] => 2020-10-08
-    [3] => 2020-10-08
-)
-
-[08-Oct-2020 21:10:08 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[08-Oct-2020 21:10:08 Asia/Tokyo] 
-[08-Oct-2020 21:10:08 Asia/Tokyo] メッセージ：
-[08-Oct-2020 21:10:08 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
-[08-Oct-2020 21:10:08 Asia/Tokyo] [ページ名]：マイページ
-[08-Oct-2020 21:10:08 Asia/Tokyo] セッションID：88spnfm8n58gecnhgprm98o70t
-[08-Oct-2020 21:10:08 Asia/Tokyo] セッション変数の中身：Array
-(
-    [login_time] => 1602159008
-    [login_limit] => 2592000
+    [login_time] => 1606741599
+    [login_limit] => 3600
     [user_id] => 2
     [msg] => 
 )
 
-[08-Oct-2020 21:10:08 Asia/Tokyo] 現在日時タイムスタンプ：1602159008
-[08-Oct-2020 21:10:08 Asia/Tokyo] ログイン認証を行います。
-[08-Oct-2020 21:10:08 Asia/Tokyo] ログイン済みユーザーです。
-[08-Oct-2020 21:10:08 Asia/Tokyo] ログイン有効期限内のユーザーです。
-[08-Oct-2020 21:10:08 Asia/Tokyo] ログイン有効期限を更新します。
-[08-Oct-2020 21:10:08 Asia/Tokyo] データベースに接続します。
-[08-Oct-2020 21:10:08 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:10:08 Asia/Tokyo] $dbroutinedata:Array
+[30-Nov-2020 22:06:41 Asia/Tokyo] 現在日時タイムスタンプ：1606741601
+[30-Nov-2020 22:06:41 Asia/Tokyo] ログイン認証を行います。
+[30-Nov-2020 22:06:41 Asia/Tokyo] ログイン済みユーザーです。
+[30-Nov-2020 22:06:41 Asia/Tokyo] ログイン有効期限内のユーザーです。
+[30-Nov-2020 22:06:41 Asia/Tokyo] ログイン有効期限を更新します。
+[30-Nov-2020 22:06:41 Asia/Tokyo] 日記情報を取得します。
+[30-Nov-2020 22:06:41 Asia/Tokyo] ユーザーID：2
+[30-Nov-2020 22:06:41 Asia/Tokyo] 日記ID：177
+[30-Nov-2020 22:06:41 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:06:41 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:06:41 Asia/Tokyo] 商品ID177
+[30-Nov-2020 22:06:41 Asia/Tokyo] フォーム用DBデータ：Array
 (
-    [0] => Array
-        (
-            [id] => 1
-            [routine] => 腹筋３０回
-            [checked] => 0
-            [update_date] => 2020-10-08 21:10:08
-        )
-
-    [1] => Array
-        (
-            [id] => 2
-            [routine] => 背筋３０回
-            [checked] => 1
-            [update_date] => 2020-10-08 21:08:52
-        )
-
-    [2] => Array
-        (
-            [id] => 3
-            [routine] => 腕立て３０回
-            [checked] => 1
-            [update_date] => 2020-10-08 21:08:53
-        )
-
-    [3] => Array
-        (
-            [id] => 4
-            [routine] => ランニング３０分
-            [checked] => 1
-            [update_date] => 2020-10-08 21:08:53
-        )
-
+    [id] => 177
+    [user_id] => 2
+    [diary] => うえ
+    [delete_flg] => 0
+    [create_date] => 2020-11-30 22:03:09
+    [update_date] => 2020-11-30 22:03:09
 )
 
-[08-Oct-2020 21:10:08 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:10:08 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:10:08 Asia/Tokyo] $dbUserData:Array
+[30-Nov-2020 22:06:41 Asia/Tokyo] POST送信を確認しました。
+[30-Nov-2020 22:06:41 Asia/Tokyo] POST情報：Array
 (
-    [username] => hirohiro
-    [target] => がんばります！
-できればらいしゅうも!
+    [diary] => うえ
+    [delete_check] => on
+    [delete] => 削除
 )
 
-[08-Oct-2020 21:10:08 Asia/Tokyo] $dbRoutineDataNum:4
-[08-Oct-2020 21:10:08 Asia/Tokyo] $routineDate:Array
+[30-Nov-2020 22:06:41 Asia/Tokyo] バリデーションチェックOKです。
+[30-Nov-2020 22:06:41 Asia/Tokyo] 削除します。
+[30-Nov-2020 22:06:41 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:06:41 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:06:41 Asia/Tokyo] 削除しました。
+[30-Nov-2020 22:06:41 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[30-Nov-2020 22:06:41 Asia/Tokyo] [ページ名]：筋トレ日記
+[30-Nov-2020 22:06:41 Asia/Tokyo] セッションID：6ulidmvsvvbcjqmtl0of42o4lf
+[30-Nov-2020 22:06:41 Asia/Tokyo] セッション変数の中身：Array
 (
-    [0] => 2020-10-08
-    [1] => 2020-10-08
-    [2] => 2020-10-08
-    [3] => 2020-10-08
+    [login_time] => 1606741601
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg] => 日記を削除しました。
 )
 
-[08-Oct-2020 21:10:08 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[08-Oct-2020 21:10:08 Asia/Tokyo] 
-[08-Oct-2020 21:10:54 Asia/Tokyo] メッセージ：
-[08-Oct-2020 21:10:54 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
-[08-Oct-2020 21:10:54 Asia/Tokyo] [ページ名]：マイページ
-[08-Oct-2020 21:10:54 Asia/Tokyo] セッションID：nfd86bmfg4d9hb4chqcm30e5qc
-[08-Oct-2020 21:10:54 Asia/Tokyo] セッション変数の中身：Array
+[30-Nov-2020 22:06:41 Asia/Tokyo] 現在日時タイムスタンプ：1606741601
+[30-Nov-2020 22:06:41 Asia/Tokyo] ログイン認証を行います。
+[30-Nov-2020 22:06:41 Asia/Tokyo] ログイン済みユーザーです。
+[30-Nov-2020 22:06:41 Asia/Tokyo] ログイン有効期限内のユーザーです。
+[30-Nov-2020 22:06:41 Asia/Tokyo] ログイン有効期限を更新します。
+[30-Nov-2020 22:06:41 Asia/Tokyo] PHP Notice:  Undefined variable: currentMinNum in /Applications/MAMP/htdocs/nikkin/diary.php on line 21
+[30-Nov-2020 22:06:41 Asia/Tokyo] $currentMinNum:
+[30-Nov-2020 22:06:41 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:06:41 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:06:41 Asia/Tokyo] $dbDiaryNum:7
+[30-Nov-2020 22:06:41 Asia/Tokyo] $sql:SELECT * FROM diary WHERE user_id = :user_id AND delete_flg = 0 LIMIT :span OFFSET :currentMinNum
+[30-Nov-2020 22:06:41 Asia/Tokyo] $dataArray
 (
-    [login_time] => 1602159008
-    [login_limit] => 2592000
+    [:user_id] => 2
+)
+
+[30-Nov-2020 22:06:41 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Nov-2020 22:06:41 Asia/Tokyo] 
+[30-Nov-2020 22:06:43 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[30-Nov-2020 22:06:43 Asia/Tokyo] [ページ名]：マイページ
+[30-Nov-2020 22:06:43 Asia/Tokyo] セッションID：34fvok92q172srv7dggi33es8j
+[30-Nov-2020 22:06:43 Asia/Tokyo] セッション変数の中身：Array
+(
+    [login_time] => 1606741601
+    [login_limit] => 3600
     [user_id] => 2
     [msg] => 
 )
 
-[08-Oct-2020 21:10:54 Asia/Tokyo] 現在日時タイムスタンプ：1602159054
-[08-Oct-2020 21:10:54 Asia/Tokyo] ログイン認証を行います。
-[08-Oct-2020 21:10:54 Asia/Tokyo] ログイン済みユーザーです。
-[08-Oct-2020 21:10:54 Asia/Tokyo] ログイン有効期限内のユーザーです。
-[08-Oct-2020 21:10:54 Asia/Tokyo] ログイン有効期限を更新します。
-[08-Oct-2020 21:10:54 Asia/Tokyo] データベースに接続します。
-[08-Oct-2020 21:10:54 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:10:54 Asia/Tokyo] $dbroutinedata:Array
+[30-Nov-2020 22:06:43 Asia/Tokyo] 現在日時タイムスタンプ：1606741603
+[30-Nov-2020 22:06:43 Asia/Tokyo] ログイン認証を行います。
+[30-Nov-2020 22:06:43 Asia/Tokyo] ログイン済みユーザーです。
+[30-Nov-2020 22:06:43 Asia/Tokyo] ログイン有効期限内のユーザーです。
+[30-Nov-2020 22:06:43 Asia/Tokyo] ログイン有効期限を更新します。
+[30-Nov-2020 22:06:43 Asia/Tokyo] 日記情報を取得します。
+[30-Nov-2020 22:06:43 Asia/Tokyo] ユーザーID：2
+[30-Nov-2020 22:06:43 Asia/Tokyo] 日記ID：1
+[30-Nov-2020 22:06:43 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:06:43 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:06:43 Asia/Tokyo] 商品ID1
+[30-Nov-2020 22:06:43 Asia/Tokyo] フォーム用DBデータ：Array
 (
-    [0] => Array
-        (
-            [id] => 1
-            [routine] => 腹筋３０回
-            [checked] => 0
-            [update_date] => 2020-10-08 21:10:08
-        )
-
-    [1] => Array
-        (
-            [id] => 2
-            [routine] => 背筋３０回
-            [checked] => 1
-            [update_date] => 2020-10-08 21:08:52
-        )
-
-    [2] => Array
-        (
-            [id] => 3
-            [routine] => 腕立て３０回
-            [checked] => 1
-            [update_date] => 2020-10-08 21:08:53
-        )
-
-    [3] => Array
-        (
-            [id] => 4
-            [routine] => ランニング３０分
-            [checked] => 1
-            [update_date] => 2020-10-08 21:08:53
-        )
-
+    [id] => 1
+    [user_id] => 2
+    [diary] => 睡眠不足マン
+    [delete_flg] => 0
+    [create_date] => 2020-09-25 02:39:34
+    [update_date] => 2020-10-01 18:23:22
 )
 
-[08-Oct-2020 21:10:54 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:10:54 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:10:54 Asia/Tokyo] $dbUserData:Array
+[30-Nov-2020 22:06:43 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Nov-2020 22:06:43 Asia/Tokyo] 
+[30-Nov-2020 22:06:45 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[30-Nov-2020 22:06:45 Asia/Tokyo] [ページ名]：マイページ
+[30-Nov-2020 22:06:45 Asia/Tokyo] セッションID：tifm1q9n5vjv6e0vj8i3a3t7gp
+[30-Nov-2020 22:06:45 Asia/Tokyo] セッション変数の中身：Array
 (
-    [username] => hirohiro
-    [target] => がんばります！
-できればらいしゅうも!
-)
-
-[08-Oct-2020 21:10:54 Asia/Tokyo] $dbRoutineDataNum:4
-[08-Oct-2020 21:10:54 Asia/Tokyo] $routineDate:Array
-(
-    [0] => 2020-10-08
-    [1] => 2020-10-08
-    [2] => 2020-10-08
-    [3] => 2020-10-08
-)
-
-[08-Oct-2020 21:10:54 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[08-Oct-2020 21:10:54 Asia/Tokyo] 
-[08-Oct-2020 21:10:55 Asia/Tokyo] メッセージ：
-[08-Oct-2020 21:10:55 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
-[08-Oct-2020 21:10:55 Asia/Tokyo] [ページ名]：マイページ
-[08-Oct-2020 21:10:55 Asia/Tokyo] セッションID：6usl7gljqgjiteki3nolpd5a1f
-[08-Oct-2020 21:10:55 Asia/Tokyo] セッション変数の中身：Array
-(
-    [login_time] => 1602159054
-    [login_limit] => 2592000
+    [login_time] => 1606741603
+    [login_limit] => 3600
     [user_id] => 2
     [msg] => 
 )
 
-[08-Oct-2020 21:10:55 Asia/Tokyo] 現在日時タイムスタンプ：1602159055
-[08-Oct-2020 21:10:55 Asia/Tokyo] ログイン認証を行います。
-[08-Oct-2020 21:10:55 Asia/Tokyo] ログイン済みユーザーです。
-[08-Oct-2020 21:10:55 Asia/Tokyo] ログイン有効期限内のユーザーです。
-[08-Oct-2020 21:10:55 Asia/Tokyo] ログイン有効期限を更新します。
-[08-Oct-2020 21:10:55 Asia/Tokyo] データベースに接続します。
-[08-Oct-2020 21:10:55 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:10:55 Asia/Tokyo] $dbroutinedata:Array
+[30-Nov-2020 22:06:45 Asia/Tokyo] 現在日時タイムスタンプ：1606741605
+[30-Nov-2020 22:06:45 Asia/Tokyo] ログイン認証を行います。
+[30-Nov-2020 22:06:45 Asia/Tokyo] ログイン済みユーザーです。
+[30-Nov-2020 22:06:45 Asia/Tokyo] ログイン有効期限内のユーザーです。
+[30-Nov-2020 22:06:45 Asia/Tokyo] ログイン有効期限を更新します。
+[30-Nov-2020 22:06:45 Asia/Tokyo] 日記情報を取得します。
+[30-Nov-2020 22:06:45 Asia/Tokyo] ユーザーID：2
+[30-Nov-2020 22:06:45 Asia/Tokyo] 日記ID：1
+[30-Nov-2020 22:06:45 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:06:45 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:06:45 Asia/Tokyo] 商品ID1
+[30-Nov-2020 22:06:45 Asia/Tokyo] フォーム用DBデータ：Array
 (
-    [0] => Array
-        (
-            [id] => 1
-            [routine] => 腹筋３０回
-            [checked] => 0
-            [update_date] => 2020-10-08 21:10:08
-        )
-
-    [1] => Array
-        (
-            [id] => 2
-            [routine] => 背筋３０回
-            [checked] => 1
-            [update_date] => 2020-10-08 21:08:52
-        )
-
-    [2] => Array
-        (
-            [id] => 3
-            [routine] => 腕立て３０回
-            [checked] => 1
-            [update_date] => 2020-10-08 21:08:53
-        )
-
-    [3] => Array
-        (
-            [id] => 4
-            [routine] => ランニング３０分
-            [checked] => 1
-            [update_date] => 2020-10-08 21:08:53
-        )
-
+    [id] => 1
+    [user_id] => 2
+    [diary] => 睡眠不足マン
+    [delete_flg] => 0
+    [create_date] => 2020-09-25 02:39:34
+    [update_date] => 2020-10-01 18:23:22
 )
 
-[08-Oct-2020 21:10:55 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:10:55 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:10:55 Asia/Tokyo] $dbUserData:Array
+[30-Nov-2020 22:06:45 Asia/Tokyo] POST送信を確認しました。
+[30-Nov-2020 22:06:45 Asia/Tokyo] POST情報：Array
 (
-    [username] => hirohiro
-    [target] => がんばります！
-できればらいしゅうも!
+    [diary] => 睡眠不足マン
+    [delete_check] => on
+    [delete] => 削除
 )
 
-[08-Oct-2020 21:10:55 Asia/Tokyo] $dbRoutineDataNum:4
-[08-Oct-2020 21:10:55 Asia/Tokyo] $routineDate:Array
+[30-Nov-2020 22:06:45 Asia/Tokyo] バリデーションチェックOKです。
+[30-Nov-2020 22:06:45 Asia/Tokyo] 削除します。
+[30-Nov-2020 22:06:45 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:06:45 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:06:45 Asia/Tokyo] 削除しました。
+[30-Nov-2020 22:06:45 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[30-Nov-2020 22:06:45 Asia/Tokyo] [ページ名]：筋トレ日記
+[30-Nov-2020 22:06:45 Asia/Tokyo] セッションID：vbg2b27bngkqt3qjtu7e7phijb
+[30-Nov-2020 22:06:45 Asia/Tokyo] セッション変数の中身：Array
 (
-    [0] => 2020-10-08
-    [1] => 2020-10-08
-    [2] => 2020-10-08
-    [3] => 2020-10-08
+    [login_time] => 1606741605
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg] => 日記を削除しました。
 )
 
-[08-Oct-2020 21:10:55 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[08-Oct-2020 21:10:55 Asia/Tokyo] 
-[08-Oct-2020 21:10:58 Asia/Tokyo] メッセージ：
-[08-Oct-2020 21:10:58 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
-[08-Oct-2020 21:10:58 Asia/Tokyo] [ページ名]：マイページ
-[08-Oct-2020 21:10:58 Asia/Tokyo] セッションID：sn59s0gv8ohrri3qr7qt0mo7hq
-[08-Oct-2020 21:10:58 Asia/Tokyo] セッション変数の中身：Array
+[30-Nov-2020 22:06:45 Asia/Tokyo] 現在日時タイムスタンプ：1606741605
+[30-Nov-2020 22:06:45 Asia/Tokyo] ログイン認証を行います。
+[30-Nov-2020 22:06:45 Asia/Tokyo] ログイン済みユーザーです。
+[30-Nov-2020 22:06:45 Asia/Tokyo] ログイン有効期限内のユーザーです。
+[30-Nov-2020 22:06:45 Asia/Tokyo] ログイン有効期限を更新します。
+[30-Nov-2020 22:06:45 Asia/Tokyo] PHP Notice:  Undefined variable: currentMinNum in /Applications/MAMP/htdocs/nikkin/diary.php on line 21
+[30-Nov-2020 22:06:45 Asia/Tokyo] $currentMinNum:
+[30-Nov-2020 22:06:45 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:06:45 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:06:45 Asia/Tokyo] $dbDiaryNum:6
+[30-Nov-2020 22:06:45 Asia/Tokyo] $sql:SELECT * FROM diary WHERE user_id = :user_id AND delete_flg = 0 LIMIT :span OFFSET :currentMinNum
+[30-Nov-2020 22:06:45 Asia/Tokyo] $dataArray
 (
-    [login_time] => 1602159055
-    [login_limit] => 2592000
+    [:user_id] => 2
+)
+
+[30-Nov-2020 22:06:45 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Nov-2020 22:06:45 Asia/Tokyo] 
+[30-Nov-2020 22:06:45 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[30-Nov-2020 22:06:45 Asia/Tokyo] [ページ名]：マイページ
+[30-Nov-2020 22:06:45 Asia/Tokyo] セッションID：v8ifub9ps81e2hm870mv092d28
+[30-Nov-2020 22:06:45 Asia/Tokyo] セッション変数の中身：Array
+(
+    [login_time] => 1606741605
+    [login_limit] => 3600
     [user_id] => 2
     [msg] => 
 )
 
-[08-Oct-2020 21:10:58 Asia/Tokyo] 現在日時タイムスタンプ：1602159058
-[08-Oct-2020 21:10:58 Asia/Tokyo] ログイン認証を行います。
-[08-Oct-2020 21:10:58 Asia/Tokyo] ログイン済みユーザーです。
-[08-Oct-2020 21:10:58 Asia/Tokyo] ログイン有効期限内のユーザーです。
-[08-Oct-2020 21:10:58 Asia/Tokyo] ログイン有効期限を更新します。
-[08-Oct-2020 21:10:58 Asia/Tokyo] データベースに接続します。
-[08-Oct-2020 21:10:58 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:10:58 Asia/Tokyo] $dbroutinedata:Array
+[30-Nov-2020 22:06:45 Asia/Tokyo] 現在日時タイムスタンプ：1606741605
+[30-Nov-2020 22:06:45 Asia/Tokyo] ログイン認証を行います。
+[30-Nov-2020 22:06:45 Asia/Tokyo] ログイン済みユーザーです。
+[30-Nov-2020 22:06:45 Asia/Tokyo] ログイン有効期限内のユーザーです。
+[30-Nov-2020 22:06:45 Asia/Tokyo] ログイン有効期限を更新します。
+[30-Nov-2020 22:06:45 Asia/Tokyo] 日記情報を取得します。
+[30-Nov-2020 22:06:45 Asia/Tokyo] ユーザーID：2
+[30-Nov-2020 22:06:45 Asia/Tokyo] 日記ID：176
+[30-Nov-2020 22:06:45 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:06:45 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:06:45 Asia/Tokyo] 商品ID176
+[30-Nov-2020 22:06:45 Asia/Tokyo] フォーム用DBデータ：Array
 (
-    [0] => Array
-        (
-            [id] => 1
-            [routine] => 腹筋３０回
-            [checked] => 1
-            [update_date] => 2020-10-08 21:10:57
-        )
-
-    [1] => Array
-        (
-            [id] => 2
-            [routine] => 背筋３０回
-            [checked] => 1
-            [update_date] => 2020-10-08 21:08:52
-        )
-
-    [2] => Array
-        (
-            [id] => 3
-            [routine] => 腕立て３０回
-            [checked] => 1
-            [update_date] => 2020-10-08 21:08:53
-        )
-
-    [3] => Array
-        (
-            [id] => 4
-            [routine] => ランニング３０分
-            [checked] => 1
-            [update_date] => 2020-10-08 21:08:53
-        )
-
+    [id] => 176
+    [user_id] => 2
+    [diary] => あ
+    [delete_flg] => 0
+    [create_date] => 2020-11-30 22:03:06
+    [update_date] => 2020-11-30 22:03:06
 )
 
-[08-Oct-2020 21:10:58 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:10:58 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:10:58 Asia/Tokyo] $dbUserData:Array
+[30-Nov-2020 22:06:45 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Nov-2020 22:06:45 Asia/Tokyo] 
+[30-Nov-2020 22:06:47 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[30-Nov-2020 22:06:47 Asia/Tokyo] [ページ名]：マイページ
+[30-Nov-2020 22:06:47 Asia/Tokyo] セッションID：lqj7bgmbfqja5ascv6cr62sph1
+[30-Nov-2020 22:06:47 Asia/Tokyo] セッション変数の中身：Array
 (
-    [username] => hirohiro
-    [target] => がんばります！
-できればらいしゅうも!
-)
-
-[08-Oct-2020 21:10:58 Asia/Tokyo] $dbRoutineDataNum:4
-[08-Oct-2020 21:10:58 Asia/Tokyo] $routineDate:Array
-(
-    [0] => 2020-10-08
-    [1] => 2020-10-08
-    [2] => 2020-10-08
-    [3] => 2020-10-08
-)
-
-[08-Oct-2020 21:10:58 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[08-Oct-2020 21:10:58 Asia/Tokyo] 
-[08-Oct-2020 21:11:10 Asia/Tokyo] メッセージ：
-[08-Oct-2020 21:11:10 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
-[08-Oct-2020 21:11:10 Asia/Tokyo] [ページ名]：マイページ
-[08-Oct-2020 21:11:10 Asia/Tokyo] セッションID：skgj7k39gkepi5m14tvdeampe8
-[08-Oct-2020 21:11:10 Asia/Tokyo] セッション変数の中身：Array
-(
-    [login_time] => 1602159058
-    [login_limit] => 2592000
+    [login_time] => 1606741605
+    [login_limit] => 3600
     [user_id] => 2
     [msg] => 
 )
 
-[08-Oct-2020 21:11:10 Asia/Tokyo] 現在日時タイムスタンプ：1602159070
-[08-Oct-2020 21:11:10 Asia/Tokyo] ログイン認証を行います。
-[08-Oct-2020 21:11:10 Asia/Tokyo] ログイン済みユーザーです。
-[08-Oct-2020 21:11:10 Asia/Tokyo] ログイン有効期限内のユーザーです。
-[08-Oct-2020 21:11:10 Asia/Tokyo] ログイン有効期限を更新します。
-[08-Oct-2020 21:11:10 Asia/Tokyo] データベースに接続します。
-[08-Oct-2020 21:11:10 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:11:10 Asia/Tokyo] $dbroutinedata:Array
+[30-Nov-2020 22:06:47 Asia/Tokyo] 現在日時タイムスタンプ：1606741607
+[30-Nov-2020 22:06:47 Asia/Tokyo] ログイン認証を行います。
+[30-Nov-2020 22:06:47 Asia/Tokyo] ログイン済みユーザーです。
+[30-Nov-2020 22:06:47 Asia/Tokyo] ログイン有効期限内のユーザーです。
+[30-Nov-2020 22:06:47 Asia/Tokyo] ログイン有効期限を更新します。
+[30-Nov-2020 22:06:47 Asia/Tokyo] 日記情報を取得します。
+[30-Nov-2020 22:06:47 Asia/Tokyo] ユーザーID：2
+[30-Nov-2020 22:06:47 Asia/Tokyo] 日記ID：176
+[30-Nov-2020 22:06:47 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:06:47 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:06:47 Asia/Tokyo] 商品ID176
+[30-Nov-2020 22:06:47 Asia/Tokyo] フォーム用DBデータ：Array
 (
-    [0] => Array
-        (
-            [id] => 1
-            [routine] => 腹筋３０回
-            [checked] => 1
-            [update_date] => 2020-10-01 21:10:57
-        )
-
-    [1] => Array
-        (
-            [id] => 2
-            [routine] => 背筋３０回
-            [checked] => 1
-            [update_date] => 2020-10-08 21:08:52
-        )
-
-    [2] => Array
-        (
-            [id] => 3
-            [routine] => 腕立て３０回
-            [checked] => 1
-            [update_date] => 2020-10-08 21:08:53
-        )
-
-    [3] => Array
-        (
-            [id] => 4
-            [routine] => ランニング３０分
-            [checked] => 1
-            [update_date] => 2020-10-08 21:08:53
-        )
-
+    [id] => 176
+    [user_id] => 2
+    [diary] => あ
+    [delete_flg] => 0
+    [create_date] => 2020-11-30 22:03:06
+    [update_date] => 2020-11-30 22:03:06
 )
 
-[08-Oct-2020 21:11:10 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:11:10 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:11:10 Asia/Tokyo] $dbUserData:Array
+[30-Nov-2020 22:06:47 Asia/Tokyo] POST送信を確認しました。
+[30-Nov-2020 22:06:47 Asia/Tokyo] POST情報：Array
 (
-    [username] => hirohiro
-    [target] => がんばります！
-できればらいしゅうも!
+    [diary] => あ
+    [delete_check] => on
+    [delete] => 削除
 )
 
-[08-Oct-2020 21:11:10 Asia/Tokyo] $dbRoutineDataNum:4
-[08-Oct-2020 21:11:10 Asia/Tokyo] 日付が変わりました。日課を更新します。
-[08-Oct-2020 21:11:10 Asia/Tokyo] データベースに接続します。
-[08-Oct-2020 21:11:10 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:11:10 Asia/Tokyo] $routineDate:Array
+[30-Nov-2020 22:06:47 Asia/Tokyo] バリデーションチェックOKです。
+[30-Nov-2020 22:06:47 Asia/Tokyo] 削除します。
+[30-Nov-2020 22:06:47 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:06:47 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:06:47 Asia/Tokyo] 削除しました。
+[30-Nov-2020 22:06:47 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[30-Nov-2020 22:06:47 Asia/Tokyo] [ページ名]：筋トレ日記
+[30-Nov-2020 22:06:47 Asia/Tokyo] セッションID：m0isgj5ggl0pmgks8j9k8al3o4
+[30-Nov-2020 22:06:47 Asia/Tokyo] セッション変数の中身：Array
 (
-    [0] => 2020-10-01
-    [1] => 2020-10-08
-    [2] => 2020-10-08
-    [3] => 2020-10-08
+    [login_time] => 1606741607
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg] => 日記を削除しました。
 )
 
-[08-Oct-2020 21:11:10 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[08-Oct-2020 21:11:10 Asia/Tokyo] 
-[08-Oct-2020 21:11:36 Asia/Tokyo] メッセージ：
-[08-Oct-2020 21:11:36 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
-[08-Oct-2020 21:11:36 Asia/Tokyo] [ページ名]：マイページ
-[08-Oct-2020 21:11:36 Asia/Tokyo] セッションID：sjhqh7hpti8t8dkqdimsnu0j9r
-[08-Oct-2020 21:11:36 Asia/Tokyo] セッション変数の中身：Array
+[30-Nov-2020 22:06:47 Asia/Tokyo] 現在日時タイムスタンプ：1606741607
+[30-Nov-2020 22:06:47 Asia/Tokyo] ログイン認証を行います。
+[30-Nov-2020 22:06:47 Asia/Tokyo] ログイン済みユーザーです。
+[30-Nov-2020 22:06:47 Asia/Tokyo] ログイン有効期限内のユーザーです。
+[30-Nov-2020 22:06:47 Asia/Tokyo] ログイン有効期限を更新します。
+[30-Nov-2020 22:06:47 Asia/Tokyo] PHP Notice:  Undefined variable: currentMinNum in /Applications/MAMP/htdocs/nikkin/diary.php on line 21
+[30-Nov-2020 22:06:47 Asia/Tokyo] $currentMinNum:
+[30-Nov-2020 22:06:47 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:06:47 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:06:47 Asia/Tokyo] $dbDiaryNum:5
+[30-Nov-2020 22:06:47 Asia/Tokyo] $sql:SELECT * FROM diary WHERE user_id = :user_id AND delete_flg = 0 LIMIT :span OFFSET :currentMinNum
+[30-Nov-2020 22:06:47 Asia/Tokyo] $dataArray
 (
-    [login_time] => 1602159070
-    [login_limit] => 2592000
+    [:user_id] => 2
+)
+
+[30-Nov-2020 22:06:47 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Nov-2020 22:06:47 Asia/Tokyo] 
+[30-Nov-2020 22:06:48 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[30-Nov-2020 22:06:48 Asia/Tokyo] [ページ名]：マイページ
+[30-Nov-2020 22:06:48 Asia/Tokyo] セッションID：evmv08q89dgd3bq8rclhs6geml
+[30-Nov-2020 22:06:48 Asia/Tokyo] セッション変数の中身：Array
+(
+    [login_time] => 1606741607
+    [login_limit] => 3600
     [user_id] => 2
     [msg] => 
 )
 
-[08-Oct-2020 21:11:36 Asia/Tokyo] 現在日時タイムスタンプ：1602159096
-[08-Oct-2020 21:11:36 Asia/Tokyo] ログイン認証を行います。
-[08-Oct-2020 21:11:36 Asia/Tokyo] ログイン済みユーザーです。
-[08-Oct-2020 21:11:36 Asia/Tokyo] ログイン有効期限内のユーザーです。
-[08-Oct-2020 21:11:36 Asia/Tokyo] ログイン有効期限を更新します。
-[08-Oct-2020 21:11:36 Asia/Tokyo] データベースに接続します。
-[08-Oct-2020 21:11:36 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:11:36 Asia/Tokyo] $dbroutinedata:Array
+[30-Nov-2020 22:06:48 Asia/Tokyo] 現在日時タイムスタンプ：1606741608
+[30-Nov-2020 22:06:48 Asia/Tokyo] ログイン認証を行います。
+[30-Nov-2020 22:06:48 Asia/Tokyo] ログイン済みユーザーです。
+[30-Nov-2020 22:06:48 Asia/Tokyo] ログイン有効期限内のユーザーです。
+[30-Nov-2020 22:06:48 Asia/Tokyo] ログイン有効期限を更新します。
+[30-Nov-2020 22:06:48 Asia/Tokyo] 日記情報を取得します。
+[30-Nov-2020 22:06:48 Asia/Tokyo] ユーザーID：2
+[30-Nov-2020 22:06:48 Asia/Tokyo] 日記ID：175
+[30-Nov-2020 22:06:48 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:06:48 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:06:48 Asia/Tokyo] 商品ID175
+[30-Nov-2020 22:06:48 Asia/Tokyo] フォーム用DBデータ：Array
 (
-    [0] => Array
-        (
-            [id] => 1
-            [routine] => 腹筋３０回
-            [checked] => 0
-            [update_date] => 2020-10-08 21:11:10
-        )
+    [id] => 175
+    [user_id] => 2
+    [diary] => あい
 
-    [1] => Array
-        (
-            [id] => 2
-            [routine] => 背筋３０回
-            [checked] => 1
-            [update_date] => 2020-10-06 21:08:52
-        )
-
-    [2] => Array
-        (
-            [id] => 3
-            [routine] => 腕立て３０回
-            [checked] => 1
-            [update_date] => 2020-10-05 21:08:53
-        )
-
-    [3] => Array
-        (
-            [id] => 4
-            [routine] => ランニング３０分
-            [checked] => 1
-            [update_date] => 2020-10-08 21:08:53
-        )
-
+    [delete_flg] => 0
+    [create_date] => 2020-11-30 22:03:03
+    [update_date] => 2020-11-30 22:03:03
 )
 
-[08-Oct-2020 21:11:36 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:11:36 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:11:36 Asia/Tokyo] $dbUserData:Array
+[30-Nov-2020 22:06:48 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Nov-2020 22:06:48 Asia/Tokyo] 
+[30-Nov-2020 22:06:50 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[30-Nov-2020 22:06:50 Asia/Tokyo] [ページ名]：マイページ
+[30-Nov-2020 22:06:50 Asia/Tokyo] セッションID：v182g9il2qfk7r272lv7bcfpio
+[30-Nov-2020 22:06:50 Asia/Tokyo] セッション変数の中身：Array
 (
-    [username] => hirohiro
-    [target] => がんばります！
-できればらいしゅうも!
-)
-
-[08-Oct-2020 21:11:36 Asia/Tokyo] $dbRoutineDataNum:4
-[08-Oct-2020 21:11:36 Asia/Tokyo] 日付が変わりました。日課を更新します。
-[08-Oct-2020 21:11:36 Asia/Tokyo] データベースに接続します。
-[08-Oct-2020 21:11:36 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:11:36 Asia/Tokyo] 日付が変わりました。日課を更新します。
-[08-Oct-2020 21:11:36 Asia/Tokyo] データベースに接続します。
-[08-Oct-2020 21:11:36 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:11:36 Asia/Tokyo] $routineDate:Array
-(
-    [0] => 2020-10-08
-    [1] => 2020-10-06
-    [2] => 2020-10-05
-    [3] => 2020-10-08
-)
-
-[08-Oct-2020 21:11:36 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[08-Oct-2020 21:11:36 Asia/Tokyo] 
-[08-Oct-2020 21:11:37 Asia/Tokyo] メッセージ：
-[08-Oct-2020 21:11:37 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
-[08-Oct-2020 21:11:37 Asia/Tokyo] [ページ名]：マイページ
-[08-Oct-2020 21:11:37 Asia/Tokyo] セッションID：50pc9eeopmqaespvihhuvg821d
-[08-Oct-2020 21:11:37 Asia/Tokyo] セッション変数の中身：Array
-(
-    [login_time] => 1602159096
-    [login_limit] => 2592000
+    [login_time] => 1606741608
+    [login_limit] => 3600
     [user_id] => 2
     [msg] => 
 )
 
-[08-Oct-2020 21:11:37 Asia/Tokyo] 現在日時タイムスタンプ：1602159097
-[08-Oct-2020 21:11:37 Asia/Tokyo] ログイン認証を行います。
-[08-Oct-2020 21:11:37 Asia/Tokyo] ログイン済みユーザーです。
-[08-Oct-2020 21:11:37 Asia/Tokyo] ログイン有効期限内のユーザーです。
-[08-Oct-2020 21:11:37 Asia/Tokyo] ログイン有効期限を更新します。
-[08-Oct-2020 21:11:37 Asia/Tokyo] データベースに接続します。
-[08-Oct-2020 21:11:37 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:11:37 Asia/Tokyo] $dbroutinedata:Array
+[30-Nov-2020 22:06:50 Asia/Tokyo] 現在日時タイムスタンプ：1606741610
+[30-Nov-2020 22:06:50 Asia/Tokyo] ログイン認証を行います。
+[30-Nov-2020 22:06:50 Asia/Tokyo] ログイン済みユーザーです。
+[30-Nov-2020 22:06:50 Asia/Tokyo] ログイン有効期限内のユーザーです。
+[30-Nov-2020 22:06:50 Asia/Tokyo] ログイン有効期限を更新します。
+[30-Nov-2020 22:06:50 Asia/Tokyo] 日記情報を取得します。
+[30-Nov-2020 22:06:50 Asia/Tokyo] ユーザーID：2
+[30-Nov-2020 22:06:50 Asia/Tokyo] 日記ID：175
+[30-Nov-2020 22:06:50 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:06:50 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:06:50 Asia/Tokyo] 商品ID175
+[30-Nov-2020 22:06:50 Asia/Tokyo] フォーム用DBデータ：Array
 (
-    [0] => Array
-        (
-            [id] => 1
-            [routine] => 腹筋３０回
-            [checked] => 0
-            [update_date] => 2020-10-08 21:11:10
-        )
+    [id] => 175
+    [user_id] => 2
+    [diary] => あい
 
-    [1] => Array
-        (
-            [id] => 2
-            [routine] => 背筋３０回
-            [checked] => 0
-            [update_date] => 2020-10-08 21:11:36
-        )
-
-    [2] => Array
-        (
-            [id] => 3
-            [routine] => 腕立て３０回
-            [checked] => 0
-            [update_date] => 2020-10-08 21:11:36
-        )
-
-    [3] => Array
-        (
-            [id] => 4
-            [routine] => ランニング３０分
-            [checked] => 1
-            [update_date] => 2020-10-08 21:08:53
-        )
-
+    [delete_flg] => 0
+    [create_date] => 2020-11-30 22:03:03
+    [update_date] => 2020-11-30 22:03:03
 )
 
-[08-Oct-2020 21:11:37 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:11:37 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:11:37 Asia/Tokyo] $dbUserData:Array
+[30-Nov-2020 22:06:50 Asia/Tokyo] POST送信を確認しました。
+[30-Nov-2020 22:06:50 Asia/Tokyo] POST情報：Array
 (
-    [username] => hirohiro
-    [target] => がんばります！
-できればらいしゅうも!
+    [diary] => あい
+
+    [delete_check] => on
+    [delete] => 削除
 )
 
-[08-Oct-2020 21:11:37 Asia/Tokyo] $dbRoutineDataNum:4
-[08-Oct-2020 21:11:37 Asia/Tokyo] $routineDate:Array
+[30-Nov-2020 22:06:50 Asia/Tokyo] バリデーションチェックOKです。
+[30-Nov-2020 22:06:50 Asia/Tokyo] 削除します。
+[30-Nov-2020 22:06:50 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:06:50 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:06:50 Asia/Tokyo] 削除しました。
+[30-Nov-2020 22:06:50 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[30-Nov-2020 22:06:50 Asia/Tokyo] [ページ名]：筋トレ日記
+[30-Nov-2020 22:06:50 Asia/Tokyo] セッションID：okgh4jbkeb7pc01j1311lsa4vf
+[30-Nov-2020 22:06:50 Asia/Tokyo] セッション変数の中身：Array
 (
-    [0] => 2020-10-08
-    [1] => 2020-10-08
-    [2] => 2020-10-08
-    [3] => 2020-10-08
+    [login_time] => 1606741610
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg] => 日記を削除しました。
 )
 
-[08-Oct-2020 21:11:37 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[08-Oct-2020 21:11:37 Asia/Tokyo] 
-[08-Oct-2020 21:11:37 Asia/Tokyo] メッセージ：
-[08-Oct-2020 21:11:37 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
-[08-Oct-2020 21:11:37 Asia/Tokyo] [ページ名]：マイページ
-[08-Oct-2020 21:11:37 Asia/Tokyo] セッションID：u4c439j38408jt2qj81h6jse89
-[08-Oct-2020 21:11:37 Asia/Tokyo] セッション変数の中身：Array
+[30-Nov-2020 22:06:50 Asia/Tokyo] 現在日時タイムスタンプ：1606741610
+[30-Nov-2020 22:06:50 Asia/Tokyo] ログイン認証を行います。
+[30-Nov-2020 22:06:50 Asia/Tokyo] ログイン済みユーザーです。
+[30-Nov-2020 22:06:50 Asia/Tokyo] ログイン有効期限内のユーザーです。
+[30-Nov-2020 22:06:50 Asia/Tokyo] ログイン有効期限を更新します。
+[30-Nov-2020 22:06:50 Asia/Tokyo] PHP Notice:  Undefined variable: currentMinNum in /Applications/MAMP/htdocs/nikkin/diary.php on line 21
+[30-Nov-2020 22:06:50 Asia/Tokyo] $currentMinNum:
+[30-Nov-2020 22:06:50 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:06:50 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:06:50 Asia/Tokyo] $dbDiaryNum:4
+[30-Nov-2020 22:06:50 Asia/Tokyo] $sql:SELECT * FROM diary WHERE user_id = :user_id AND delete_flg = 0 LIMIT :span OFFSET :currentMinNum
+[30-Nov-2020 22:06:50 Asia/Tokyo] $dataArray
 (
-    [login_time] => 1602159097
-    [login_limit] => 2592000
+    [:user_id] => 2
+)
+
+[30-Nov-2020 22:06:50 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Nov-2020 22:06:50 Asia/Tokyo] 
+[30-Nov-2020 22:06:51 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[30-Nov-2020 22:06:51 Asia/Tokyo] [ページ名]：マイページ
+[30-Nov-2020 22:06:51 Asia/Tokyo] セッションID：23lgvs7vb9cgklukrm36f7utnu
+[30-Nov-2020 22:06:51 Asia/Tokyo] セッション変数の中身：Array
+(
+    [login_time] => 1606741610
+    [login_limit] => 3600
     [user_id] => 2
     [msg] => 
 )
 
-[08-Oct-2020 21:11:37 Asia/Tokyo] 現在日時タイムスタンプ：1602159097
-[08-Oct-2020 21:11:37 Asia/Tokyo] ログイン認証を行います。
-[08-Oct-2020 21:11:37 Asia/Tokyo] ログイン済みユーザーです。
-[08-Oct-2020 21:11:37 Asia/Tokyo] ログイン有効期限内のユーザーです。
-[08-Oct-2020 21:11:37 Asia/Tokyo] ログイン有効期限を更新します。
-[08-Oct-2020 21:11:37 Asia/Tokyo] データベースに接続します。
-[08-Oct-2020 21:11:37 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:11:37 Asia/Tokyo] $dbroutinedata:Array
+[30-Nov-2020 22:06:51 Asia/Tokyo] 現在日時タイムスタンプ：1606741611
+[30-Nov-2020 22:06:51 Asia/Tokyo] ログイン認証を行います。
+[30-Nov-2020 22:06:51 Asia/Tokyo] ログイン済みユーザーです。
+[30-Nov-2020 22:06:51 Asia/Tokyo] ログイン有効期限内のユーザーです。
+[30-Nov-2020 22:06:51 Asia/Tokyo] ログイン有効期限を更新します。
+[30-Nov-2020 22:06:51 Asia/Tokyo] 日記情報を取得します。
+[30-Nov-2020 22:06:51 Asia/Tokyo] ユーザーID：2
+[30-Nov-2020 22:06:51 Asia/Tokyo] 日記ID：174
+[30-Nov-2020 22:06:51 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:06:51 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:06:51 Asia/Tokyo] 商品ID174
+[30-Nov-2020 22:06:51 Asia/Tokyo] フォーム用DBデータ：Array
 (
-    [0] => Array
-        (
-            [id] => 1
-            [routine] => 腹筋３０回
-            [checked] => 0
-            [update_date] => 2020-10-08 21:11:10
-        )
+    [id] => 174
+    [user_id] => 2
+    [diary] => ねむみ
 
-    [1] => Array
-        (
-            [id] => 2
-            [routine] => 背筋３０回
-            [checked] => 0
-            [update_date] => 2020-10-08 21:11:36
-        )
-
-    [2] => Array
-        (
-            [id] => 3
-            [routine] => 腕立て３０回
-            [checked] => 0
-            [update_date] => 2020-10-08 21:11:36
-        )
-
-    [3] => Array
-        (
-            [id] => 4
-            [routine] => ランニング３０分
-            [checked] => 1
-            [update_date] => 2020-10-08 21:08:53
-        )
-
+    [delete_flg] => 0
+    [create_date] => 2020-11-30 22:02:35
+    [update_date] => 2020-11-30 22:02:35
 )
 
-[08-Oct-2020 21:11:37 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:11:37 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:11:37 Asia/Tokyo] $dbUserData:Array
+[30-Nov-2020 22:06:51 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Nov-2020 22:06:51 Asia/Tokyo] 
+[30-Nov-2020 22:06:52 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[30-Nov-2020 22:06:52 Asia/Tokyo] [ページ名]：マイページ
+[30-Nov-2020 22:06:52 Asia/Tokyo] セッションID：mvsqqvun9b37kkrc7d7p99d7jr
+[30-Nov-2020 22:06:52 Asia/Tokyo] セッション変数の中身：Array
 (
-    [username] => hirohiro
-    [target] => がんばります！
-できればらいしゅうも!
-)
-
-[08-Oct-2020 21:11:37 Asia/Tokyo] $dbRoutineDataNum:4
-[08-Oct-2020 21:11:37 Asia/Tokyo] $routineDate:Array
-(
-    [0] => 2020-10-08
-    [1] => 2020-10-08
-    [2] => 2020-10-08
-    [3] => 2020-10-08
-)
-
-[08-Oct-2020 21:11:37 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[08-Oct-2020 21:11:37 Asia/Tokyo] 
-[08-Oct-2020 21:11:37 Asia/Tokyo] メッセージ：
-[08-Oct-2020 21:11:37 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
-[08-Oct-2020 21:11:37 Asia/Tokyo] [ページ名]：マイページ
-[08-Oct-2020 21:11:37 Asia/Tokyo] セッションID：nqt5sghir1kcrk22sqk49cuier
-[08-Oct-2020 21:11:37 Asia/Tokyo] セッション変数の中身：Array
-(
-    [login_time] => 1602159097
-    [login_limit] => 2592000
+    [login_time] => 1606741611
+    [login_limit] => 3600
     [user_id] => 2
     [msg] => 
 )
 
-[08-Oct-2020 21:11:37 Asia/Tokyo] 現在日時タイムスタンプ：1602159097
-[08-Oct-2020 21:11:37 Asia/Tokyo] ログイン認証を行います。
-[08-Oct-2020 21:11:37 Asia/Tokyo] ログイン済みユーザーです。
-[08-Oct-2020 21:11:37 Asia/Tokyo] ログイン有効期限内のユーザーです。
-[08-Oct-2020 21:11:37 Asia/Tokyo] ログイン有効期限を更新します。
-[08-Oct-2020 21:11:37 Asia/Tokyo] データベースに接続します。
-[08-Oct-2020 21:11:37 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:11:37 Asia/Tokyo] $dbroutinedata:Array
+[30-Nov-2020 22:06:52 Asia/Tokyo] 現在日時タイムスタンプ：1606741612
+[30-Nov-2020 22:06:52 Asia/Tokyo] ログイン認証を行います。
+[30-Nov-2020 22:06:52 Asia/Tokyo] ログイン済みユーザーです。
+[30-Nov-2020 22:06:52 Asia/Tokyo] ログイン有効期限内のユーザーです。
+[30-Nov-2020 22:06:52 Asia/Tokyo] ログイン有効期限を更新します。
+[30-Nov-2020 22:06:52 Asia/Tokyo] 日記情報を取得します。
+[30-Nov-2020 22:06:52 Asia/Tokyo] ユーザーID：2
+[30-Nov-2020 22:06:52 Asia/Tokyo] 日記ID：174
+[30-Nov-2020 22:06:52 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:06:52 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:06:52 Asia/Tokyo] 商品ID174
+[30-Nov-2020 22:06:52 Asia/Tokyo] フォーム用DBデータ：Array
 (
-    [0] => Array
-        (
-            [id] => 1
-            [routine] => 腹筋３０回
-            [checked] => 0
-            [update_date] => 2020-10-08 21:11:10
-        )
+    [id] => 174
+    [user_id] => 2
+    [diary] => ねむみ
 
-    [1] => Array
-        (
-            [id] => 2
-            [routine] => 背筋３０回
-            [checked] => 0
-            [update_date] => 2020-10-08 21:11:36
-        )
-
-    [2] => Array
-        (
-            [id] => 3
-            [routine] => 腕立て３０回
-            [checked] => 0
-            [update_date] => 2020-10-08 21:11:36
-        )
-
-    [3] => Array
-        (
-            [id] => 4
-            [routine] => ランニング３０分
-            [checked] => 1
-            [update_date] => 2020-10-08 21:08:53
-        )
-
+    [delete_flg] => 0
+    [create_date] => 2020-11-30 22:02:35
+    [update_date] => 2020-11-30 22:02:35
 )
 
-[08-Oct-2020 21:11:37 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:11:37 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:11:37 Asia/Tokyo] $dbUserData:Array
+[30-Nov-2020 22:06:52 Asia/Tokyo] POST送信を確認しました。
+[30-Nov-2020 22:06:52 Asia/Tokyo] POST情報：Array
 (
-    [username] => hirohiro
-    [target] => がんばります！
-できればらいしゅうも!
+    [diary] => ねむみ
+
+    [delete_check] => on
+    [delete] => 削除
 )
 
-[08-Oct-2020 21:11:37 Asia/Tokyo] $dbRoutineDataNum:4
-[08-Oct-2020 21:11:37 Asia/Tokyo] $routineDate:Array
+[30-Nov-2020 22:06:52 Asia/Tokyo] バリデーションチェックOKです。
+[30-Nov-2020 22:06:52 Asia/Tokyo] 削除します。
+[30-Nov-2020 22:06:52 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:06:52 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:06:52 Asia/Tokyo] 削除しました。
+[30-Nov-2020 22:06:52 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[30-Nov-2020 22:06:52 Asia/Tokyo] [ページ名]：筋トレ日記
+[30-Nov-2020 22:06:52 Asia/Tokyo] セッションID：g24fd0b0dub7al1uop7d4sd6gs
+[30-Nov-2020 22:06:52 Asia/Tokyo] セッション変数の中身：Array
 (
-    [0] => 2020-10-08
-    [1] => 2020-10-08
-    [2] => 2020-10-08
-    [3] => 2020-10-08
+    [login_time] => 1606741612
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg] => 日記を削除しました。
 )
 
-[08-Oct-2020 21:11:37 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[08-Oct-2020 21:11:37 Asia/Tokyo] 
-[08-Oct-2020 21:12:33 Asia/Tokyo] メッセージ：
-[08-Oct-2020 21:12:33 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
-[08-Oct-2020 21:12:33 Asia/Tokyo] [ページ名]：マイページ
-[08-Oct-2020 21:12:33 Asia/Tokyo] セッションID：iku6r79at17rtuncu9joalh5vm
-[08-Oct-2020 21:12:33 Asia/Tokyo] セッション変数の中身：Array
+[30-Nov-2020 22:06:52 Asia/Tokyo] 現在日時タイムスタンプ：1606741612
+[30-Nov-2020 22:06:52 Asia/Tokyo] ログイン認証を行います。
+[30-Nov-2020 22:06:52 Asia/Tokyo] ログイン済みユーザーです。
+[30-Nov-2020 22:06:52 Asia/Tokyo] ログイン有効期限内のユーザーです。
+[30-Nov-2020 22:06:52 Asia/Tokyo] ログイン有効期限を更新します。
+[30-Nov-2020 22:06:52 Asia/Tokyo] PHP Notice:  Undefined variable: currentMinNum in /Applications/MAMP/htdocs/nikkin/diary.php on line 21
+[30-Nov-2020 22:06:52 Asia/Tokyo] $currentMinNum:
+[30-Nov-2020 22:06:52 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:06:52 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:06:52 Asia/Tokyo] $dbDiaryNum:3
+[30-Nov-2020 22:06:52 Asia/Tokyo] $sql:SELECT * FROM diary WHERE user_id = :user_id AND delete_flg = 0 LIMIT :span OFFSET :currentMinNum
+[30-Nov-2020 22:06:52 Asia/Tokyo] $dataArray
 (
-    [login_time] => 1602159097
-    [login_limit] => 2592000
+    [:user_id] => 2
+)
+
+[30-Nov-2020 22:06:52 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Nov-2020 22:06:52 Asia/Tokyo] 
+[30-Nov-2020 22:06:53 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[30-Nov-2020 22:06:53 Asia/Tokyo] [ページ名]：マイページ
+[30-Nov-2020 22:06:53 Asia/Tokyo] セッションID：itjsmh6n5c21jo1nafri6ev6r5
+[30-Nov-2020 22:06:53 Asia/Tokyo] セッション変数の中身：Array
+(
+    [login_time] => 1606741612
+    [login_limit] => 3600
     [user_id] => 2
     [msg] => 
 )
 
-[08-Oct-2020 21:12:33 Asia/Tokyo] 現在日時タイムスタンプ：1602159153
-[08-Oct-2020 21:12:33 Asia/Tokyo] ログイン認証を行います。
-[08-Oct-2020 21:12:33 Asia/Tokyo] ログイン済みユーザーです。
-[08-Oct-2020 21:12:33 Asia/Tokyo] ログイン有効期限内のユーザーです。
-[08-Oct-2020 21:12:33 Asia/Tokyo] ログイン有効期限を更新します。
-[08-Oct-2020 21:12:33 Asia/Tokyo] データベースに接続します。
-[08-Oct-2020 21:12:33 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:12:33 Asia/Tokyo] $dbroutinedata:Array
+[30-Nov-2020 22:06:53 Asia/Tokyo] 現在日時タイムスタンプ：1606741613
+[30-Nov-2020 22:06:53 Asia/Tokyo] ログイン認証を行います。
+[30-Nov-2020 22:06:53 Asia/Tokyo] ログイン済みユーザーです。
+[30-Nov-2020 22:06:53 Asia/Tokyo] ログイン有効期限内のユーザーです。
+[30-Nov-2020 22:06:53 Asia/Tokyo] ログイン有効期限を更新します。
+[30-Nov-2020 22:06:53 Asia/Tokyo] 日記情報を取得します。
+[30-Nov-2020 22:06:53 Asia/Tokyo] ユーザーID：2
+[30-Nov-2020 22:06:53 Asia/Tokyo] 日記ID：173
+[30-Nov-2020 22:06:53 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:06:53 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:06:53 Asia/Tokyo] 商品ID173
+[30-Nov-2020 22:06:53 Asia/Tokyo] フォーム用DBデータ：Array
 (
-    [0] => Array
-        (
-            [id] => 1
-            [routine] => 腹筋３０回
-            [checked] => 0
-            [update_date] => 2020-10-08 21:11:10
-        )
-
-    [1] => Array
-        (
-            [id] => 2
-            [routine] => 背筋３０回
-            [checked] => 0
-            [update_date] => 2020-10-08 21:11:36
-        )
-
-    [2] => Array
-        (
-            [id] => 3
-            [routine] => 腕立て３０回
-            [checked] => 0
-            [update_date] => 2020-10-08 21:11:36
-        )
-
-    [3] => Array
-        (
-            [id] => 4
-            [routine] => ランニング３０分
-            [checked] => 1
-            [update_date] => 2020-10-08 21:08:53
-        )
-
+    [id] => 173
+    [user_id] => 2
+    [diary] => 今日も一日がんばるぞい
+    [delete_flg] => 0
+    [create_date] => 2020-10-02 13:44:19
+    [update_date] => 2020-10-02 13:44:19
 )
 
-[08-Oct-2020 21:12:33 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:12:33 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:12:33 Asia/Tokyo] $dbUserData:Array
+[30-Nov-2020 22:06:53 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Nov-2020 22:06:53 Asia/Tokyo] 
+[30-Nov-2020 22:06:55 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[30-Nov-2020 22:06:55 Asia/Tokyo] [ページ名]：マイページ
+[30-Nov-2020 22:06:55 Asia/Tokyo] セッションID：jq6nco7le70gn6tvno57tk2ml8
+[30-Nov-2020 22:06:55 Asia/Tokyo] セッション変数の中身：Array
 (
-    [username] => hirohiro
-    [target] => がんばります！
-できればらいしゅうも!
-)
-
-[08-Oct-2020 21:12:33 Asia/Tokyo] $dbRoutineDataNum:4
-[08-Oct-2020 21:12:33 Asia/Tokyo] $routineDate:Array
-(
-    [0] => 2020-10-08
-    [1] => 2020-10-08
-    [2] => 2020-10-08
-    [3] => 2020-10-08
-)
-
-[08-Oct-2020 21:12:33 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[08-Oct-2020 21:12:33 Asia/Tokyo] 
-[08-Oct-2020 21:12:51 Asia/Tokyo] メッセージ：
-[08-Oct-2020 21:12:51 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
-[08-Oct-2020 21:12:51 Asia/Tokyo] [ページ名]：マイページ
-[08-Oct-2020 21:12:51 Asia/Tokyo] セッションID：1hn65ffpjhf7v375k0ep8jtqnn
-[08-Oct-2020 21:12:51 Asia/Tokyo] セッション変数の中身：Array
-(
-    [login_time] => 1602159153
-    [login_limit] => 2592000
+    [login_time] => 1606741613
+    [login_limit] => 3600
     [user_id] => 2
     [msg] => 
 )
 
-[08-Oct-2020 21:12:51 Asia/Tokyo] 現在日時タイムスタンプ：1602159171
-[08-Oct-2020 21:12:51 Asia/Tokyo] ログイン認証を行います。
-[08-Oct-2020 21:12:51 Asia/Tokyo] ログイン済みユーザーです。
-[08-Oct-2020 21:12:51 Asia/Tokyo] ログイン有効期限内のユーザーです。
-[08-Oct-2020 21:12:51 Asia/Tokyo] ログイン有効期限を更新します。
-[08-Oct-2020 21:12:51 Asia/Tokyo] データベースに接続します。
-[08-Oct-2020 21:12:51 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:12:51 Asia/Tokyo] $dbroutinedata:Array
+[30-Nov-2020 22:06:55 Asia/Tokyo] 現在日時タイムスタンプ：1606741615
+[30-Nov-2020 22:06:55 Asia/Tokyo] ログイン認証を行います。
+[30-Nov-2020 22:06:55 Asia/Tokyo] ログイン済みユーザーです。
+[30-Nov-2020 22:06:55 Asia/Tokyo] ログイン有効期限内のユーザーです。
+[30-Nov-2020 22:06:55 Asia/Tokyo] ログイン有効期限を更新します。
+[30-Nov-2020 22:06:55 Asia/Tokyo] 日記情報を取得します。
+[30-Nov-2020 22:06:55 Asia/Tokyo] ユーザーID：2
+[30-Nov-2020 22:06:55 Asia/Tokyo] 日記ID：173
+[30-Nov-2020 22:06:55 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:06:55 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:06:55 Asia/Tokyo] 商品ID173
+[30-Nov-2020 22:06:55 Asia/Tokyo] フォーム用DBデータ：Array
 (
-    [0] => Array
-        (
-            [id] => 1
-            [routine] => 腹筋３０回
-            [checked] => 1
-            [update_date] => 2020-10-01 21:12:34
-        )
-
-    [1] => Array
-        (
-            [id] => 2
-            [routine] => 背筋３０回
-            [checked] => 1
-            [update_date] => 2020-10-08 21:12:35
-        )
-
-    [2] => Array
-        (
-            [id] => 3
-            [routine] => 腕立て３０回
-            [checked] => 1
-            [update_date] => 2020-10-08 21:12:35
-        )
-
-    [3] => Array
-        (
-            [id] => 4
-            [routine] => ランニング３０分
-            [checked] => 1
-            [update_date] => 2020-10-08 21:08:53
-        )
-
+    [id] => 173
+    [user_id] => 2
+    [diary] => 今日も一日がんばるぞい
+    [delete_flg] => 0
+    [create_date] => 2020-10-02 13:44:19
+    [update_date] => 2020-10-02 13:44:19
 )
 
-[08-Oct-2020 21:12:51 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:12:51 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:12:51 Asia/Tokyo] $dbUserData:Array
+[30-Nov-2020 22:06:55 Asia/Tokyo] POST送信を確認しました。
+[30-Nov-2020 22:06:55 Asia/Tokyo] POST情報：Array
 (
-    [username] => hirohiro
-    [target] => がんばります！
-できればらいしゅうも!
+    [diary] => 今日も一日がんばるぞい
+    [delete_check] => on
+    [delete] => 削除
 )
 
-[08-Oct-2020 21:12:51 Asia/Tokyo] $dbRoutineDataNum:4
-[08-Oct-2020 21:12:51 Asia/Tokyo] PHP Warning:  Illegal string offset 'checked' in /Applications/MAMP/htdocs/home/output/nikkin/mypage.php on line 37
-[08-Oct-2020 21:12:51 Asia/Tokyo] 日付が変わりました。日課を更新します。
-[08-Oct-2020 21:12:51 Asia/Tokyo] データベースに接続します。
-[08-Oct-2020 21:12:51 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 21:12:51 Asia/Tokyo] $routineDate:Array
+[30-Nov-2020 22:06:55 Asia/Tokyo] バリデーションチェックOKです。
+[30-Nov-2020 22:06:55 Asia/Tokyo] 削除します。
+[30-Nov-2020 22:06:55 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:06:55 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:06:55 Asia/Tokyo] 削除しました。
+[30-Nov-2020 22:06:55 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[30-Nov-2020 22:06:55 Asia/Tokyo] [ページ名]：筋トレ日記
+[30-Nov-2020 22:06:55 Asia/Tokyo] セッションID：rpinvj4bqv84srfe6ha8e3h84c
+[30-Nov-2020 22:06:55 Asia/Tokyo] セッション変数の中身：Array
 (
-    [0] => 1020-10-01
-    [1] => 2020-10-08
-    [2] => 2020-10-08
-    [3] => 2020-10-08
+    [login_time] => 1606741615
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg] => 日記を削除しました。
 )
 
-[08-Oct-2020 21:12:51 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[08-Oct-2020 21:12:51 Asia/Tokyo] 
-[08-Oct-2020 22:53:04 Asia/Tokyo] メッセージ：
-[08-Oct-2020 22:53:04 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
-[08-Oct-2020 22:53:04 Asia/Tokyo] [ページ名]：マイページ
-[08-Oct-2020 22:53:04 Asia/Tokyo] セッションID：1shnl9bghhcd4k00jds2p58cu2
-[08-Oct-2020 22:53:04 Asia/Tokyo] セッション変数の中身：Array
+[30-Nov-2020 22:06:55 Asia/Tokyo] 現在日時タイムスタンプ：1606741615
+[30-Nov-2020 22:06:55 Asia/Tokyo] ログイン認証を行います。
+[30-Nov-2020 22:06:55 Asia/Tokyo] ログイン済みユーザーです。
+[30-Nov-2020 22:06:55 Asia/Tokyo] ログイン有効期限内のユーザーです。
+[30-Nov-2020 22:06:55 Asia/Tokyo] ログイン有効期限を更新します。
+[30-Nov-2020 22:06:55 Asia/Tokyo] PHP Notice:  Undefined variable: currentMinNum in /Applications/MAMP/htdocs/nikkin/diary.php on line 21
+[30-Nov-2020 22:06:55 Asia/Tokyo] $currentMinNum:
+[30-Nov-2020 22:06:55 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:06:55 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:06:55 Asia/Tokyo] $dbDiaryNum:2
+[30-Nov-2020 22:06:55 Asia/Tokyo] $sql:SELECT * FROM diary WHERE user_id = :user_id AND delete_flg = 0 LIMIT :span OFFSET :currentMinNum
+[30-Nov-2020 22:06:55 Asia/Tokyo] $dataArray
 (
-    [login_time] => 1602159171
-    [login_limit] => 2592000
+    [:user_id] => 2
+)
+
+[30-Nov-2020 22:06:55 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Nov-2020 22:06:55 Asia/Tokyo] 
+[30-Nov-2020 22:06:55 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[30-Nov-2020 22:06:55 Asia/Tokyo] [ページ名]：マイページ
+[30-Nov-2020 22:06:55 Asia/Tokyo] セッションID：7cgram61vbfm922dpnjt4t9rkp
+[30-Nov-2020 22:06:55 Asia/Tokyo] セッション変数の中身：Array
+(
+    [login_time] => 1606741615
+    [login_limit] => 3600
     [user_id] => 2
     [msg] => 
 )
 
-[08-Oct-2020 22:53:04 Asia/Tokyo] 現在日時タイムスタンプ：1602165184
-[08-Oct-2020 22:53:04 Asia/Tokyo] ログイン認証を行います。
-[08-Oct-2020 22:53:04 Asia/Tokyo] ログイン済みユーザーです。
-[08-Oct-2020 22:53:04 Asia/Tokyo] ログイン有効期限内のユーザーです。
-[08-Oct-2020 22:53:04 Asia/Tokyo] ログイン有効期限を更新します。
-[08-Oct-2020 22:53:04 Asia/Tokyo] データベースに接続します。
-[08-Oct-2020 22:53:04 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 22:53:04 Asia/Tokyo] $dbroutinedata:Array
+[30-Nov-2020 22:06:55 Asia/Tokyo] 現在日時タイムスタンプ：1606741615
+[30-Nov-2020 22:06:55 Asia/Tokyo] ログイン認証を行います。
+[30-Nov-2020 22:06:55 Asia/Tokyo] ログイン済みユーザーです。
+[30-Nov-2020 22:06:55 Asia/Tokyo] ログイン有効期限内のユーザーです。
+[30-Nov-2020 22:06:55 Asia/Tokyo] ログイン有効期限を更新します。
+[30-Nov-2020 22:06:55 Asia/Tokyo] 日記情報を取得します。
+[30-Nov-2020 22:06:55 Asia/Tokyo] ユーザーID：2
+[30-Nov-2020 22:06:55 Asia/Tokyo] 日記ID：172
+[30-Nov-2020 22:06:55 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:06:55 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:06:55 Asia/Tokyo] 商品ID172
+[30-Nov-2020 22:06:55 Asia/Tokyo] フォーム用DBデータ：Array
 (
-    [0] => Array
-        (
-            [id] => 1
-            [routine] => 腹筋３０回
-            [checked] => 0
-            [update_date] => 2020-10-08 21:12:51
-        )
-
-    [1] => Array
-        (
-            [id] => 2
-            [routine] => 背筋３０回
-            [checked] => 1
-            [update_date] => 2020-10-08 21:12:35
-        )
-
-    [2] => Array
-        (
-            [id] => 3
-            [routine] => 腕立て３０回
-            [checked] => 1
-            [update_date] => 2020-10-08 21:12:35
-        )
-
-    [3] => Array
-        (
-            [id] => 4
-            [routine] => ランニング３０分
-            [checked] => 1
-            [update_date] => 2020-10-08 21:08:53
-        )
-
+    [id] => 172
+    [user_id] => 2
+    [diary] => 睡眠不足。
+    [delete_flg] => 0
+    [create_date] => 2020-10-02 13:43:52
+    [update_date] => 2020-10-02 13:43:52
 )
 
-[08-Oct-2020 22:53:04 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 22:53:04 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 22:53:04 Asia/Tokyo] $dbUserData:Array
+[30-Nov-2020 22:06:55 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Nov-2020 22:06:55 Asia/Tokyo] 
+[30-Nov-2020 22:06:57 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[30-Nov-2020 22:06:57 Asia/Tokyo] [ページ名]：マイページ
+[30-Nov-2020 22:06:57 Asia/Tokyo] セッションID：q4j00h6ceak727ogbjsg75llcr
+[30-Nov-2020 22:06:57 Asia/Tokyo] セッション変数の中身：Array
 (
-    [username] => hirohiro
-    [target] => がんばります！
-できればらいしゅうも!
-)
-
-[08-Oct-2020 22:53:04 Asia/Tokyo] $dbRoutineDataNum:4
-[08-Oct-2020 22:53:04 Asia/Tokyo] $routineDate:Array
-(
-    [0] => 2020-10-08
-    [1] => 2020-10-08
-    [2] => 2020-10-08
-    [3] => 2020-10-08
-)
-
-[08-Oct-2020 22:53:04 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[08-Oct-2020 22:53:04 Asia/Tokyo] 
-[08-Oct-2020 22:53:06 Asia/Tokyo] メッセージ：
-[08-Oct-2020 22:53:06 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
-[08-Oct-2020 22:53:06 Asia/Tokyo] [ページ名]：マイページ
-[08-Oct-2020 22:53:06 Asia/Tokyo] セッションID：6oagusmjmhb945uprfm8qhof8i
-[08-Oct-2020 22:53:06 Asia/Tokyo] セッション変数の中身：Array
-(
-    [login_time] => 1602165184
-    [login_limit] => 2592000
+    [login_time] => 1606741615
+    [login_limit] => 3600
     [user_id] => 2
     [msg] => 
 )
 
-[08-Oct-2020 22:53:06 Asia/Tokyo] 現在日時タイムスタンプ：1602165186
-[08-Oct-2020 22:53:06 Asia/Tokyo] ログイン認証を行います。
-[08-Oct-2020 22:53:06 Asia/Tokyo] ログイン済みユーザーです。
-[08-Oct-2020 22:53:06 Asia/Tokyo] ログイン有効期限内のユーザーです。
-[08-Oct-2020 22:53:06 Asia/Tokyo] ログイン有効期限を更新します。
-[08-Oct-2020 22:53:06 Asia/Tokyo] データベースに接続します。
-[08-Oct-2020 22:53:06 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 22:53:06 Asia/Tokyo] $dbroutinedata:Array
+[30-Nov-2020 22:06:57 Asia/Tokyo] 現在日時タイムスタンプ：1606741617
+[30-Nov-2020 22:06:57 Asia/Tokyo] ログイン認証を行います。
+[30-Nov-2020 22:06:57 Asia/Tokyo] ログイン済みユーザーです。
+[30-Nov-2020 22:06:57 Asia/Tokyo] ログイン有効期限内のユーザーです。
+[30-Nov-2020 22:06:57 Asia/Tokyo] ログイン有効期限を更新します。
+[30-Nov-2020 22:06:57 Asia/Tokyo] 日記情報を取得します。
+[30-Nov-2020 22:06:57 Asia/Tokyo] ユーザーID：2
+[30-Nov-2020 22:06:57 Asia/Tokyo] 日記ID：172
+[30-Nov-2020 22:06:57 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:06:57 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:06:57 Asia/Tokyo] 商品ID172
+[30-Nov-2020 22:06:57 Asia/Tokyo] フォーム用DBデータ：Array
 (
-    [0] => Array
-        (
-            [id] => 1
-            [routine] => 腹筋３０回
-            [checked] => 1
-            [update_date] => 2020-10-08 22:53:05
-        )
-
-    [1] => Array
-        (
-            [id] => 2
-            [routine] => 背筋３０回
-            [checked] => 1
-            [update_date] => 2020-10-08 21:12:35
-        )
-
-    [2] => Array
-        (
-            [id] => 3
-            [routine] => 腕立て３０回
-            [checked] => 1
-            [update_date] => 2020-10-08 21:12:35
-        )
-
-    [3] => Array
-        (
-            [id] => 4
-            [routine] => ランニング３０分
-            [checked] => 1
-            [update_date] => 2020-10-08 21:08:53
-        )
-
+    [id] => 172
+    [user_id] => 2
+    [diary] => 睡眠不足。
+    [delete_flg] => 0
+    [create_date] => 2020-10-02 13:43:52
+    [update_date] => 2020-10-02 13:43:52
 )
 
-[08-Oct-2020 22:53:06 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 22:53:06 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 22:53:06 Asia/Tokyo] $dbUserData:Array
+[30-Nov-2020 22:06:57 Asia/Tokyo] POST送信を確認しました。
+[30-Nov-2020 22:06:57 Asia/Tokyo] POST情報：Array
 (
-    [username] => hirohiro
-    [target] => がんばります！
-できればらいしゅうも!
+    [diary] => 睡眠不足。
+    [delete_check] => on
+    [delete] => 削除
 )
 
-[08-Oct-2020 22:53:06 Asia/Tokyo] $dbRoutineDataNum:4
-[08-Oct-2020 22:53:06 Asia/Tokyo] $routineDate:Array
+[30-Nov-2020 22:06:57 Asia/Tokyo] バリデーションチェックOKです。
+[30-Nov-2020 22:06:57 Asia/Tokyo] 削除します。
+[30-Nov-2020 22:06:57 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:06:57 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:06:57 Asia/Tokyo] 削除しました。
+[30-Nov-2020 22:06:57 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[30-Nov-2020 22:06:57 Asia/Tokyo] [ページ名]：筋トレ日記
+[30-Nov-2020 22:06:57 Asia/Tokyo] セッションID：2i5nfj9b35o263hcked9qbfpuo
+[30-Nov-2020 22:06:57 Asia/Tokyo] セッション変数の中身：Array
 (
-    [0] => 2020-10-08
-    [1] => 2020-10-08
-    [2] => 2020-10-08
-    [3] => 2020-10-08
+    [login_time] => 1606741617
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg] => 日記を削除しました。
 )
 
-[08-Oct-2020 22:53:06 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[08-Oct-2020 22:53:06 Asia/Tokyo] 
-[08-Oct-2020 22:53:32 Asia/Tokyo] メッセージ：
-[08-Oct-2020 22:53:32 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
-[08-Oct-2020 22:53:32 Asia/Tokyo] [ページ名]：マイページ
-[08-Oct-2020 22:53:32 Asia/Tokyo] セッションID：1hekb95jhh16n1va7ps6532h5n
-[08-Oct-2020 22:53:32 Asia/Tokyo] セッション変数の中身：Array
+[30-Nov-2020 22:06:57 Asia/Tokyo] 現在日時タイムスタンプ：1606741617
+[30-Nov-2020 22:06:57 Asia/Tokyo] ログイン認証を行います。
+[30-Nov-2020 22:06:57 Asia/Tokyo] ログイン済みユーザーです。
+[30-Nov-2020 22:06:57 Asia/Tokyo] ログイン有効期限内のユーザーです。
+[30-Nov-2020 22:06:57 Asia/Tokyo] ログイン有効期限を更新します。
+[30-Nov-2020 22:06:57 Asia/Tokyo] PHP Notice:  Undefined variable: currentMinNum in /Applications/MAMP/htdocs/nikkin/diary.php on line 21
+[30-Nov-2020 22:06:57 Asia/Tokyo] $currentMinNum:
+[30-Nov-2020 22:06:57 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:06:57 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:06:57 Asia/Tokyo] $dbDiaryNum:1
+[30-Nov-2020 22:06:57 Asia/Tokyo] $sql:SELECT * FROM diary WHERE user_id = :user_id AND delete_flg = 0 LIMIT :span OFFSET :currentMinNum
+[30-Nov-2020 22:06:57 Asia/Tokyo] $dataArray
 (
-    [login_time] => 1602165186
-    [login_limit] => 2592000
+    [:user_id] => 2
+)
+
+[30-Nov-2020 22:06:57 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Nov-2020 22:06:57 Asia/Tokyo] 
+[30-Nov-2020 22:06:58 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[30-Nov-2020 22:06:58 Asia/Tokyo] [ページ名]：マイページ
+[30-Nov-2020 22:06:58 Asia/Tokyo] セッションID：p257ijk3t8past2g8so0464lck
+[30-Nov-2020 22:06:58 Asia/Tokyo] セッション変数の中身：Array
+(
+    [login_time] => 1606741617
+    [login_limit] => 3600
     [user_id] => 2
     [msg] => 
 )
 
-[08-Oct-2020 22:53:32 Asia/Tokyo] 現在日時タイムスタンプ：1602165212
-[08-Oct-2020 22:53:32 Asia/Tokyo] ログイン認証を行います。
-[08-Oct-2020 22:53:32 Asia/Tokyo] ログイン済みユーザーです。
-[08-Oct-2020 22:53:32 Asia/Tokyo] ログイン有効期限内のユーザーです。
-[08-Oct-2020 22:53:32 Asia/Tokyo] ログイン有効期限を更新します。
-[08-Oct-2020 22:53:32 Asia/Tokyo] データベースに接続します。
-[08-Oct-2020 22:53:32 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 22:53:32 Asia/Tokyo] $dbroutinedata:Array
+[30-Nov-2020 22:06:58 Asia/Tokyo] 現在日時タイムスタンプ：1606741618
+[30-Nov-2020 22:06:58 Asia/Tokyo] ログイン認証を行います。
+[30-Nov-2020 22:06:58 Asia/Tokyo] ログイン済みユーザーです。
+[30-Nov-2020 22:06:58 Asia/Tokyo] ログイン有効期限内のユーザーです。
+[30-Nov-2020 22:06:58 Asia/Tokyo] ログイン有効期限を更新します。
+[30-Nov-2020 22:06:58 Asia/Tokyo] 日記情報を取得します。
+[30-Nov-2020 22:06:58 Asia/Tokyo] ユーザーID：2
+[30-Nov-2020 22:06:58 Asia/Tokyo] 日記ID：8
+[30-Nov-2020 22:06:58 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:06:58 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:06:58 Asia/Tokyo] 商品ID8
+[30-Nov-2020 22:06:58 Asia/Tokyo] フォーム用DBデータ：Array
 (
-    [0] => Array
-        (
-            [id] => 1
-            [routine] => 腹筋３０回
-            [checked] => 1
-            [update_date] => 2020-10-08 22:53:05
-        )
-
-    [1] => Array
-        (
-            [id] => 2
-            [routine] => 背筋３０回
-            [checked] => 1
-            [update_date] => 2020-10-08 21:12:35
-        )
-
-    [2] => Array
-        (
-            [id] => 3
-            [routine] => 腕立て３０回
-            [checked] => 1
-            [update_date] => 2020-10-08 21:12:35
-        )
-
-    [3] => Array
-        (
-            [id] => 4
-            [routine] => ランニング３０分
-            [checked] => 1
-            [update_date] => 2020-10-08 21:08:53
-        )
-
+    [id] => 8
+    [user_id] => 2
+    [diary] => 眠い
+    [delete_flg] => 0
+    [create_date] => 2020-10-01 18:40:38
+    [update_date] => 2020-10-01 18:40:38
 )
 
-[08-Oct-2020 22:53:32 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 22:53:32 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 22:53:32 Asia/Tokyo] $dbUserData:Array
+[30-Nov-2020 22:06:58 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Nov-2020 22:06:58 Asia/Tokyo] 
+[30-Nov-2020 22:06:59 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[30-Nov-2020 22:06:59 Asia/Tokyo] [ページ名]：マイページ
+[30-Nov-2020 22:06:59 Asia/Tokyo] セッションID：hum45v6iulgqupjnc0ma3bia9p
+[30-Nov-2020 22:06:59 Asia/Tokyo] セッション変数の中身：Array
 (
-    [username] => hirohiro
-    [target] => がんばります！
-できればらいしゅうも!
-)
-
-[08-Oct-2020 22:53:32 Asia/Tokyo] $dbRoutineDataNum:4
-[08-Oct-2020 22:53:32 Asia/Tokyo] $routineDate:Array
-(
-    [0] => 2020-10-08
-    [1] => 2020-10-08
-    [2] => 2020-10-08
-    [3] => 2020-10-08
-)
-
-[08-Oct-2020 22:53:32 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[08-Oct-2020 22:53:32 Asia/Tokyo] 
-[08-Oct-2020 22:54:14 Asia/Tokyo] メッセージ：
-[08-Oct-2020 22:54:14 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
-[08-Oct-2020 22:54:14 Asia/Tokyo] [ページ名]：マイページ
-[08-Oct-2020 22:54:14 Asia/Tokyo] セッションID：mq0878g9d16u56543k8p5giol0
-[08-Oct-2020 22:54:14 Asia/Tokyo] セッション変数の中身：Array
-(
-    [login_time] => 1602165212
-    [login_limit] => 2592000
+    [login_time] => 1606741618
+    [login_limit] => 3600
     [user_id] => 2
     [msg] => 
 )
 
-[08-Oct-2020 22:54:14 Asia/Tokyo] 現在日時タイムスタンプ：1602165254
-[08-Oct-2020 22:54:14 Asia/Tokyo] ログイン認証を行います。
-[08-Oct-2020 22:54:14 Asia/Tokyo] ログイン済みユーザーです。
-[08-Oct-2020 22:54:14 Asia/Tokyo] ログイン有効期限内のユーザーです。
-[08-Oct-2020 22:54:14 Asia/Tokyo] ログイン有効期限を更新します。
-[08-Oct-2020 22:54:14 Asia/Tokyo] データベースに接続します。
-[08-Oct-2020 22:54:14 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 22:54:14 Asia/Tokyo] $dbroutinedata:Array
+[30-Nov-2020 22:06:59 Asia/Tokyo] 現在日時タイムスタンプ：1606741619
+[30-Nov-2020 22:06:59 Asia/Tokyo] ログイン認証を行います。
+[30-Nov-2020 22:06:59 Asia/Tokyo] ログイン済みユーザーです。
+[30-Nov-2020 22:06:59 Asia/Tokyo] ログイン有効期限内のユーザーです。
+[30-Nov-2020 22:06:59 Asia/Tokyo] ログイン有効期限を更新します。
+[30-Nov-2020 22:06:59 Asia/Tokyo] 日記情報を取得します。
+[30-Nov-2020 22:06:59 Asia/Tokyo] ユーザーID：2
+[30-Nov-2020 22:06:59 Asia/Tokyo] 日記ID：8
+[30-Nov-2020 22:06:59 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:06:59 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:06:59 Asia/Tokyo] 商品ID8
+[30-Nov-2020 22:06:59 Asia/Tokyo] フォーム用DBデータ：Array
 (
-    [0] => Array
-        (
-            [id] => 1
-            [routine] => 腹筋３０回
-            [checked] => 1
-            [update_date] => 2020-10-08 22:53:05
-        )
-
-    [1] => Array
-        (
-            [id] => 2
-            [routine] => 背筋３０回
-            [checked] => 1
-            [update_date] => 2020-10-08 21:12:35
-        )
-
-    [2] => Array
-        (
-            [id] => 3
-            [routine] => 腕立て３０回
-            [checked] => 1
-            [update_date] => 2020-10-08 21:12:35
-        )
-
-    [3] => Array
-        (
-            [id] => 4
-            [routine] => ランニング３０分
-            [checked] => 1
-            [update_date] => 2020-10-08 21:08:53
-        )
-
+    [id] => 8
+    [user_id] => 2
+    [diary] => 眠い
+    [delete_flg] => 0
+    [create_date] => 2020-10-01 18:40:38
+    [update_date] => 2020-10-01 18:40:38
 )
 
-[08-Oct-2020 22:54:14 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 22:54:14 Asia/Tokyo] クエリ成功しました。
-[08-Oct-2020 22:54:14 Asia/Tokyo] $dbUserData:Array
+[30-Nov-2020 22:06:59 Asia/Tokyo] POST送信を確認しました。
+[30-Nov-2020 22:06:59 Asia/Tokyo] POST情報：Array
 (
-    [username] => hirohiro
-    [target] => がんばります！
-できればらいしゅうも!
+    [diary] => 眠い
+    [delete_check] => on
+    [delete] => 削除
 )
 
-[08-Oct-2020 22:54:14 Asia/Tokyo] $dbRoutineDataNum:4
-[08-Oct-2020 22:54:14 Asia/Tokyo] $routineDate:Array
+[30-Nov-2020 22:06:59 Asia/Tokyo] バリデーションチェックOKです。
+[30-Nov-2020 22:06:59 Asia/Tokyo] 削除します。
+[30-Nov-2020 22:06:59 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:06:59 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:06:59 Asia/Tokyo] 削除しました。
+[30-Nov-2020 22:06:59 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[30-Nov-2020 22:06:59 Asia/Tokyo] [ページ名]：筋トレ日記
+[30-Nov-2020 22:06:59 Asia/Tokyo] セッションID：c53eei25caa9talpiqf8cp90oq
+[30-Nov-2020 22:06:59 Asia/Tokyo] セッション変数の中身：Array
 (
-    [0] => 2020-10-08
-    [1] => 2020-10-08
-    [2] => 2020-10-08
-    [3] => 2020-10-08
+    [login_time] => 1606741619
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg] => 日記を削除しました。
 )
 
-[08-Oct-2020 22:54:14 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[08-Oct-2020 22:54:14 Asia/Tokyo] 
+[30-Nov-2020 22:06:59 Asia/Tokyo] 現在日時タイムスタンプ：1606741619
+[30-Nov-2020 22:06:59 Asia/Tokyo] ログイン認証を行います。
+[30-Nov-2020 22:06:59 Asia/Tokyo] ログイン済みユーザーです。
+[30-Nov-2020 22:06:59 Asia/Tokyo] ログイン有効期限内のユーザーです。
+[30-Nov-2020 22:06:59 Asia/Tokyo] ログイン有効期限を更新します。
+[30-Nov-2020 22:06:59 Asia/Tokyo] PHP Notice:  Undefined variable: currentMinNum in /Applications/MAMP/htdocs/nikkin/diary.php on line 21
+[30-Nov-2020 22:06:59 Asia/Tokyo] $currentMinNum:
+[30-Nov-2020 22:06:59 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:06:59 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:06:59 Asia/Tokyo] $dbDiaryNum:0
+[30-Nov-2020 22:06:59 Asia/Tokyo] $sql:SELECT * FROM diary WHERE user_id = :user_id AND delete_flg = 0 LIMIT :span OFFSET :currentMinNum
+[30-Nov-2020 22:06:59 Asia/Tokyo] $dataArray
+(
+    [:user_id] => 2
+)
+
+[30-Nov-2020 22:06:59 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Nov-2020 22:06:59 Asia/Tokyo] 
+[30-Nov-2020 22:07:00 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[30-Nov-2020 22:07:00 Asia/Tokyo] [ページ名]：マイページ
+[30-Nov-2020 22:07:00 Asia/Tokyo] セッションID：sd544qats6gv30ga5vth2h66gi
+[30-Nov-2020 22:07:00 Asia/Tokyo] セッション変数の中身：Array
+(
+    [login_time] => 1606741619
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg] => 
+)
+
+[30-Nov-2020 22:07:00 Asia/Tokyo] 現在日時タイムスタンプ：1606741620
+[30-Nov-2020 22:07:00 Asia/Tokyo] ログイン認証を行います。
+[30-Nov-2020 22:07:00 Asia/Tokyo] ログイン済みユーザーです。
+[30-Nov-2020 22:07:00 Asia/Tokyo] ログイン有効期限内のユーザーです。
+[30-Nov-2020 22:07:00 Asia/Tokyo] ログイン有効期限を更新します。
+[30-Nov-2020 22:07:00 Asia/Tokyo] 商品ID
+[30-Nov-2020 22:07:00 Asia/Tokyo] フォーム用DBデータ：
+[30-Nov-2020 22:07:00 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Nov-2020 22:07:00 Asia/Tokyo] 
+[30-Nov-2020 22:07:10 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[30-Nov-2020 22:07:10 Asia/Tokyo] [ページ名]：マイページ
+[30-Nov-2020 22:07:10 Asia/Tokyo] セッションID：inap9hk6kob2li67ut8u3sd872
+[30-Nov-2020 22:07:10 Asia/Tokyo] セッション変数の中身：Array
+(
+    [login_time] => 1606741620
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg] => 
+)
+
+[30-Nov-2020 22:07:10 Asia/Tokyo] 現在日時タイムスタンプ：1606741630
+[30-Nov-2020 22:07:10 Asia/Tokyo] ログイン認証を行います。
+[30-Nov-2020 22:07:10 Asia/Tokyo] ログイン済みユーザーです。
+[30-Nov-2020 22:07:10 Asia/Tokyo] ログイン有効期限内のユーザーです。
+[30-Nov-2020 22:07:10 Asia/Tokyo] ログイン有効期限を更新します。
+[30-Nov-2020 22:07:10 Asia/Tokyo] 商品ID
+[30-Nov-2020 22:07:10 Asia/Tokyo] フォーム用DBデータ：
+[30-Nov-2020 22:07:10 Asia/Tokyo] POST送信を確認しました。
+[30-Nov-2020 22:07:10 Asia/Tokyo] POST情報：Array
+(
+    [diary] => てすと
+)
+
+[30-Nov-2020 22:07:10 Asia/Tokyo] バリデーションチェックOKです。
+[30-Nov-2020 22:07:10 Asia/Tokyo] 日記の新規登録です。
+[30-Nov-2020 22:07:10 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:07:10 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:07:10 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[30-Nov-2020 22:07:10 Asia/Tokyo] [ページ名]：筋トレ日記
+[30-Nov-2020 22:07:10 Asia/Tokyo] セッションID：2n66s1fu832kh4pd1f4bjh5amp
+[30-Nov-2020 22:07:10 Asia/Tokyo] セッション変数の中身：Array
+(
+    [login_time] => 1606741630
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg] => 日記を記入しました！
+)
+
+[30-Nov-2020 22:07:10 Asia/Tokyo] 現在日時タイムスタンプ：1606741630
+[30-Nov-2020 22:07:10 Asia/Tokyo] ログイン認証を行います。
+[30-Nov-2020 22:07:10 Asia/Tokyo] ログイン済みユーザーです。
+[30-Nov-2020 22:07:10 Asia/Tokyo] ログイン有効期限内のユーザーです。
+[30-Nov-2020 22:07:10 Asia/Tokyo] ログイン有効期限を更新します。
+[30-Nov-2020 22:07:10 Asia/Tokyo] PHP Notice:  Undefined variable: currentMinNum in /Applications/MAMP/htdocs/nikkin/diary.php on line 21
+[30-Nov-2020 22:07:10 Asia/Tokyo] $currentMinNum:
+[30-Nov-2020 22:07:10 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:07:10 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:07:10 Asia/Tokyo] $dbDiaryNum:1
+[30-Nov-2020 22:07:10 Asia/Tokyo] $sql:SELECT * FROM diary WHERE user_id = :user_id AND delete_flg = 0 LIMIT :span OFFSET :currentMinNum
+[30-Nov-2020 22:07:10 Asia/Tokyo] $dataArray
+(
+    [:user_id] => 2
+)
+
+[30-Nov-2020 22:07:10 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Nov-2020 22:07:10 Asia/Tokyo] 
+[30-Nov-2020 22:07:12 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[30-Nov-2020 22:07:12 Asia/Tokyo] [ページ名]：マイページ
+[30-Nov-2020 22:07:12 Asia/Tokyo] セッションID：ujpg0vkbucqsqa9he0d6ki5ne0
+[30-Nov-2020 22:07:12 Asia/Tokyo] セッション変数の中身：Array
+(
+    [login_time] => 1606741630
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg] => 
+)
+
+[30-Nov-2020 22:07:12 Asia/Tokyo] 現在日時タイムスタンプ：1606741632
+[30-Nov-2020 22:07:12 Asia/Tokyo] ログイン認証を行います。
+[30-Nov-2020 22:07:12 Asia/Tokyo] ログイン済みユーザーです。
+[30-Nov-2020 22:07:12 Asia/Tokyo] ログイン有効期限内のユーザーです。
+[30-Nov-2020 22:07:12 Asia/Tokyo] ログイン有効期限を更新します。
+[30-Nov-2020 22:07:12 Asia/Tokyo] 商品ID
+[30-Nov-2020 22:07:12 Asia/Tokyo] フォーム用DBデータ：
+[30-Nov-2020 22:07:12 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Nov-2020 22:07:12 Asia/Tokyo] 
+[30-Nov-2020 22:07:17 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[30-Nov-2020 22:07:17 Asia/Tokyo] [ページ名]：マイページ
+[30-Nov-2020 22:07:17 Asia/Tokyo] セッションID：pkc0ovfrdt8bdnjbctupf7jp4g
+[30-Nov-2020 22:07:17 Asia/Tokyo] セッション変数の中身：Array
+(
+    [login_time] => 1606741632
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg] => 
+)
+
+[30-Nov-2020 22:07:17 Asia/Tokyo] 現在日時タイムスタンプ：1606741637
+[30-Nov-2020 22:07:17 Asia/Tokyo] ログイン認証を行います。
+[30-Nov-2020 22:07:17 Asia/Tokyo] ログイン済みユーザーです。
+[30-Nov-2020 22:07:17 Asia/Tokyo] ログイン有効期限内のユーザーです。
+[30-Nov-2020 22:07:17 Asia/Tokyo] ログイン有効期限を更新します。
+[30-Nov-2020 22:07:17 Asia/Tokyo] 商品ID
+[30-Nov-2020 22:07:17 Asia/Tokyo] フォーム用DBデータ：
+[30-Nov-2020 22:07:17 Asia/Tokyo] POST送信を確認しました。
+[30-Nov-2020 22:07:17 Asia/Tokyo] POST情報：Array
+(
+    [diary] => てすと２
+)
+
+[30-Nov-2020 22:07:17 Asia/Tokyo] バリデーションチェックOKです。
+[30-Nov-2020 22:07:17 Asia/Tokyo] 日記の新規登録です。
+[30-Nov-2020 22:07:17 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:07:17 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:07:17 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[30-Nov-2020 22:07:17 Asia/Tokyo] [ページ名]：筋トレ日記
+[30-Nov-2020 22:07:17 Asia/Tokyo] セッションID：4e8q57ktl84dvvggfdppscqkm1
+[30-Nov-2020 22:07:17 Asia/Tokyo] セッション変数の中身：Array
+(
+    [login_time] => 1606741637
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg] => 日記を記入しました！
+)
+
+[30-Nov-2020 22:07:17 Asia/Tokyo] 現在日時タイムスタンプ：1606741637
+[30-Nov-2020 22:07:17 Asia/Tokyo] ログイン認証を行います。
+[30-Nov-2020 22:07:17 Asia/Tokyo] ログイン済みユーザーです。
+[30-Nov-2020 22:07:17 Asia/Tokyo] ログイン有効期限内のユーザーです。
+[30-Nov-2020 22:07:17 Asia/Tokyo] ログイン有効期限を更新します。
+[30-Nov-2020 22:07:17 Asia/Tokyo] PHP Notice:  Undefined variable: currentMinNum in /Applications/MAMP/htdocs/nikkin/diary.php on line 21
+[30-Nov-2020 22:07:17 Asia/Tokyo] $currentMinNum:
+[30-Nov-2020 22:07:17 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:07:17 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:07:17 Asia/Tokyo] $dbDiaryNum:2
+[30-Nov-2020 22:07:17 Asia/Tokyo] $sql:SELECT * FROM diary WHERE user_id = :user_id AND delete_flg = 0 LIMIT :span OFFSET :currentMinNum
+[30-Nov-2020 22:07:17 Asia/Tokyo] $dataArray
+(
+    [:user_id] => 2
+)
+
+[30-Nov-2020 22:07:17 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Nov-2020 22:07:17 Asia/Tokyo] 
+[30-Nov-2020 22:07:18 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[30-Nov-2020 22:07:18 Asia/Tokyo] [ページ名]：マイページ
+[30-Nov-2020 22:07:18 Asia/Tokyo] セッションID：tge8oev7ss7k3c97qvnuvadn0m
+[30-Nov-2020 22:07:18 Asia/Tokyo] セッション変数の中身：Array
+(
+    [login_time] => 1606741637
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg] => 
+)
+
+[30-Nov-2020 22:07:18 Asia/Tokyo] 現在日時タイムスタンプ：1606741638
+[30-Nov-2020 22:07:18 Asia/Tokyo] ログイン認証を行います。
+[30-Nov-2020 22:07:18 Asia/Tokyo] ログイン済みユーザーです。
+[30-Nov-2020 22:07:18 Asia/Tokyo] ログイン有効期限内のユーザーです。
+[30-Nov-2020 22:07:18 Asia/Tokyo] ログイン有効期限を更新します。
+[30-Nov-2020 22:07:18 Asia/Tokyo] 商品ID
+[30-Nov-2020 22:07:18 Asia/Tokyo] フォーム用DBデータ：
+[30-Nov-2020 22:07:18 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Nov-2020 22:07:18 Asia/Tokyo] 
+[30-Nov-2020 22:07:22 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[30-Nov-2020 22:07:22 Asia/Tokyo] [ページ名]：マイページ
+[30-Nov-2020 22:07:22 Asia/Tokyo] セッションID：tl7fs6mfth5acma7v8r0g4bfa9
+[30-Nov-2020 22:07:22 Asia/Tokyo] セッション変数の中身：Array
+(
+    [login_time] => 1606741638
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg] => 
+)
+
+[30-Nov-2020 22:07:22 Asia/Tokyo] 現在日時タイムスタンプ：1606741642
+[30-Nov-2020 22:07:22 Asia/Tokyo] ログイン認証を行います。
+[30-Nov-2020 22:07:22 Asia/Tokyo] ログイン済みユーザーです。
+[30-Nov-2020 22:07:22 Asia/Tokyo] ログイン有効期限内のユーザーです。
+[30-Nov-2020 22:07:22 Asia/Tokyo] ログイン有効期限を更新します。
+[30-Nov-2020 22:07:22 Asia/Tokyo] 商品ID
+[30-Nov-2020 22:07:22 Asia/Tokyo] フォーム用DBデータ：
+[30-Nov-2020 22:07:22 Asia/Tokyo] POST送信を確認しました。
+[30-Nov-2020 22:07:22 Asia/Tokyo] POST情報：Array
+(
+    [diary] => てすと３
+)
+
+[30-Nov-2020 22:07:22 Asia/Tokyo] バリデーションチェックOKです。
+[30-Nov-2020 22:07:22 Asia/Tokyo] 日記の新規登録です。
+[30-Nov-2020 22:07:22 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:07:22 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:07:22 Asia/Tokyo] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面処理開始
+[30-Nov-2020 22:07:22 Asia/Tokyo] [ページ名]：筋トレ日記
+[30-Nov-2020 22:07:22 Asia/Tokyo] セッションID：f1jjhnlrk9ds4th67bjouh6ni0
+[30-Nov-2020 22:07:22 Asia/Tokyo] セッション変数の中身：Array
+(
+    [login_time] => 1606741642
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg] => 日記を記入しました！
+)
+
+[30-Nov-2020 22:07:22 Asia/Tokyo] 現在日時タイムスタンプ：1606741642
+[30-Nov-2020 22:07:22 Asia/Tokyo] ログイン認証を行います。
+[30-Nov-2020 22:07:22 Asia/Tokyo] ログイン済みユーザーです。
+[30-Nov-2020 22:07:22 Asia/Tokyo] ログイン有効期限内のユーザーです。
+[30-Nov-2020 22:07:22 Asia/Tokyo] ログイン有効期限を更新します。
+[30-Nov-2020 22:07:22 Asia/Tokyo] PHP Notice:  Undefined variable: currentMinNum in /Applications/MAMP/htdocs/nikkin/diary.php on line 21
+[30-Nov-2020 22:07:22 Asia/Tokyo] $currentMinNum:
+[30-Nov-2020 22:07:22 Asia/Tokyo] データベースに接続します。
+[30-Nov-2020 22:07:22 Asia/Tokyo] クエリ成功しました。
+[30-Nov-2020 22:07:22 Asia/Tokyo] $dbDiaryNum:3
+[30-Nov-2020 22:07:22 Asia/Tokyo] $sql:SELECT * FROM diary WHERE user_id = :user_id AND delete_flg = 0 LIMIT :span OFFSET :currentMinNum
+[30-Nov-2020 22:07:22 Asia/Tokyo] $dataArray
+(
+    [:user_id] => 2
+)
+
+[30-Nov-2020 22:07:22 Asia/Tokyo] 画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Nov-2020 22:07:22 Asia/Tokyo] 

@@ -80,7 +80,7 @@ include('parts/header.php'); ?>
     <main class="l_main">
       <div class="l_main_inner">
         <p class="b_mediaText">あたらしく日記を書くには<a href="diaryedit.php">コチラ</a></p>
-        <?php foreach ($dbDiaryData as $key => $val) : ?>
+        <?php foreach (array_reverse($dbDiaryData) as $key => $val) : ?>
           <section class="b_media">
             <h3 class="e_headingLv3">
               <?= date('Y/m/d', strtotime($val['create_date'])) ?>日の日記

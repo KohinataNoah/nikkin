@@ -1,14 +1,22 @@
 <?php
 
+const DATABASE_LOCAL = false;
+
 // データベース接続準備
 function connectDB()
 {
   d('データベースに接続します。');
-  $db = parse_url($_SERVER['CLEARDB_DATABASE_URL']);
-  $db['dbname'] = ltrim($db['path'], '/');
-  $dsn = "mysql:host={$db['host']};dbname={$db['dbname']};charset=utf8";
-  $user = $db['user'];
-  $password = $db['pass'];
+  if (DATABASE_LOCAL) {
+    $dsn = "mysql:localhost=8888;dbname=nikkin;charset=utf8";
+    $user = 'root';
+    $password = 'root';
+  } else {
+    $db = parse_url($_SERVER['CLEARDB_DATABASE_URL']);
+    $db['dbname'] = ltrim($db['path'], '/');
+    $dsn = "mysql:host={$db['host']};dbname={$db['dbname']};charset=utf8";
+    $user = $db['user'];
+    $password = $db['pass'];
+  }
   $options = array(
     // 何かあったらエラーを投げてもらう
     PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,

@@ -51,7 +51,7 @@ if (!empty($_POST)) {
         if ($delete) {
           d('削除します。');
           $dbh = connectDb();
-          $sql = 'UPDATE diary SET delete_flg = 0 WHERE user_id = :user_id AND id = :diary_id';
+          $sql = 'UPDATE diary SET delete_flg = 1 WHERE user_id = :user_id AND id = :diary_id';
           $data = array(':user_id' => $_SESSION['user_id'], ':diary_id' => $diaryId);
           $stmt = queryPost($dbh, $sql, $data);
           if ($stmt) {

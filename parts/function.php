@@ -3,8 +3,8 @@
 // show indexes from users = usersテーブルのインデックスがついているやつを持ってくる
 // alter table users drop index (keyname) = keynameのインデックスを消せる！
 
-// ini_set('error_log', 'php.log');
-// ini_set('display_errors', 'on');
+ini_set('error_log', 'php.log');
+ini_set('log_errors', 'on');
 
 // 定数定義
 
