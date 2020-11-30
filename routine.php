@@ -42,7 +42,7 @@ include('parts/header.php'); ?>
       <div class="l_main_inner">
         <section class="b_media">
           <p class="b_mediaText">クリックすると編集できます。新規作成は<a href="routineedit.php">コチラ</a></p><!-- /.b_mediaText -->
-          <?php foreach ($dbRoutineData as $key => $val) :  ?>
+          <?php foreach (array_reverse($dbRoutineData) as $key => $val) :  ?>
             <a href="routineedit.php?r_id=<?= $val['id'] ?>" class="e_routineList" style="display:block">
               <i class="fas fa-check-circle"></i>
               <div class="e_routineListText"><?= $val['routine'] ?></div><!-- /.e_routineListText -->
