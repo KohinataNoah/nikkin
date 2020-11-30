@@ -16,7 +16,7 @@ include('parts/header.php');
         </h2><!-- /.u_pageTtl -->
         <div class="u_tpLink">
           <span>会員登録は<br><a href="signup.php">コチラ</a></span><br>
-          <span>既に会員の方は<br><a href="login.php">コチラ</a></span><br>
+          <span>既に会員の方は<br><a href="login.php">ログイン</a></span><br>
           <span><a href="guest.php">ゲストログイン</a>
         </div><!-- /. -->
       </div><!-- /.l_main_inner -->

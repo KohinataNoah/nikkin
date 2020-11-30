@@ -97,7 +97,7 @@ include('parts/header.php'); ?>
             <input type="checkbox" name="passSave">
           </label><!-- /.b_form -->
           <div class="e_btn_wrapper">
-            <input type="submit" value="登録" class="e_btn">
+            <input type="submit" value="ログイン" class="e_btn">
           </div><!-- /.e_btn_wrapper -->
           <p>
             パスワードを忘れてしまった方は<a href="passreminder.php">コチラ</a>
