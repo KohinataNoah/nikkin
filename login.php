@@ -22,36 +22,36 @@ if (!empty($_POST)) {
     checkEmail();
     checkPass($pass, 'pass');
     checkPass($pass, 'pass');
-    if (empty($errMsg)) {
-      d('バリデーションチェックOK。');
-      d('ログインを行います。');
-      try {
-        $dbh = connectDB();
-        $sql = 'SELECT password,id FROM users WHERE email = :email AND delete_flg = 0';
-        $data = array(':email' => $email);
-        $stmt = queryPost($dbh, $sql, $data);
-        $result = $stmt->fetch(PDO::FETCH_ASSOC);
-        if ($stmt) {
-          d('ログインクエリ成功しました。');
-          if (!empty($result) && password_verify($pass, array_shift($result))) {
-            d('パスワード認証成功。');
-            $sesLimit = 60 * 60;
-            $_SESSION['login_time'] = time();
-            if (!empty($passSave)) $sesLimit *= 24 * 30;
-            d('ログインリミットは' . $sesLimit / 3600 . '時間です。');
-            $_SESSION['login_limit'] = $sesLimit;
-            $_SESSION['user_id'] = $result['id'];
-            $_SESSION['msg'] = 'ログインしました！';
-            header('Location:mypage.php');
-            exit;
-          } else {
-            d('パスワードが違います。');
-            $errMsg['common'] = 'Eメールアドレスまたはパスワードが違います。';
-          }
+  }
+  if (empty($errMsg)) {
+    d('バリデーションチェックOK。');
+    d('ログインを行います。');
+    try {
+      $dbh = connectDB();
+      $sql = 'SELECT password,id FROM users WHERE email = :email AND delete_flg = 0';
+      $data = array(':email' => $email);
+      $stmt = queryPost($dbh, $sql, $data);
+      $result = $stmt->fetch(PDO::FETCH_ASSOC);
+      if ($stmt) {
+        d('ログインクエリ成功しました。');
+        if (!empty($result) && password_verify($pass, array_shift($result))) {
+          d('パスワード認証成功。');
+          $sesLimit = 60 * 60;
+          $_SESSION['login_time'] = time();
+          if (!empty($passSave)) $sesLimit *= 24 * 30;
+          d('ログインリミットは' . $sesLimit / 3600 . '時間です。');
+          $_SESSION['login_limit'] = $sesLimit;
+          $_SESSION['user_id'] = $result['id'];
+          $_SESSION['msg'] = 'ログインしました！';
+          header('Location:mypage.php');
+          exit;
+        } else {
+          d('パスワードが違います。');
+          $errMsg['common'] = 'Eメールアドレスまたはパスワードが違います。';
         }
-      } catch (Exception $e) {
-        getErrorLog();
       }
+    } catch (Exception $e) {
+      getErrorLog();
     }
   }
 } else {
