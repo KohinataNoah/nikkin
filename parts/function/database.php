@@ -4,7 +4,9 @@
 function connectDB()
 {
   d('データベースに接続します。');
-  $dsn = 'mysql:dbname=nikkin;host=localhost;charset=utf8mb4';
+  $db = parse_url($_SERVER['CLEARDB_DATABASE_URL']);
+  $db['dbname'] = ltrim($db['path'], '/');
+  $dsn = "mysql:host={$db['host']};dbname={$db['dbname']};charset=utf8";
   $user = 'root';
   $password = 'root';
   $options = array(
